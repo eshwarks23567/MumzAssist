@@ -1,0 +1,3641 @@
+{
+  "MW-10021": {
+    "order_id": "MW-10021",
+    "customer_name": "Sara Al Mansouri",
+    "email": "sara.m@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-20",
+    "items": [
+      {
+        "product_id": "P-STR-001",
+        "name": "Cybex Gazelle S Stroller",
+        "qty": 1,
+        "price_aed": 2199.0
+      },
+      {
+        "product_id": "P-BTL-003",
+        "name": "Philips Avent Natural Bottle 260ml (3-pack)",
+        "qty": 2,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 2377.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-20",
+    "address": "Dubai, UAE"
+  },
+  "MW-10045": {
+    "order_id": "MW-10045",
+    "customer_name": "Fatima Al Zaabi",
+    "email": "fatima.z@example.com",
+    "status": "in_transit",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "ARA-994821-DXB",
+    "courier": "Aramex",
+    "items": [
+      {
+        "product_id": "P-CAR-002",
+        "name": "Maxi-Cosi Pebble 360 Pro Car Seat",
+        "qty": 1,
+        "price_aed": 1650.0
+      }
+    ],
+    "total_aed": 1650.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Abu Dhabi, UAE"
+  },
+  "MW-10067": {
+    "order_id": "MW-10067",
+    "customer_name": "Nora Hassan",
+    "email": "nora.h@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-03-15",
+    "items": [
+      {
+        "product_id": "P-MON-004",
+        "name": "Motorola VM65 Baby Monitor",
+        "qty": 1,
+        "price_aed": 549.0
+      },
+      {
+        "product_id": "P-TOY-007",
+        "name": "Fisher-Price Rainforest Jumperoo",
+        "qty": 1,
+        "price_aed": 399.0
+      }
+    ],
+    "total_aed": 948.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-04-14",
+    "return_window_expired": true,
+    "address": "Sharjah, UAE"
+  },
+  "MW-10089": {
+    "order_id": "MW-10089",
+    "customer_name": "Layla Qasim",
+    "email": "layla.q@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-CLO-010",
+        "name": "Mamas & Papas Sleepsuit 3-Pack (0-3M)",
+        "qty": 3,
+        "price_aed": 125.0
+      },
+      {
+        "product_id": "P-BTL-003",
+        "name": "Philips Avent Natural Bottle 260ml (3-pack)",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 464.0,
+    "payment_method": "credit_card",
+    "address": "Riyadh, KSA"
+  },
+  "MW-10102": {
+    "order_id": "MW-10102",
+    "customer_name": "Hana Al Khatri",
+    "email": "hana.k@example.com",
+    "status": "returned",
+    "return_initiated": "2026-04-15",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-22",
+    "items": [
+      {
+        "product_id": "P-STR-005",
+        "name": "UPPAbaby Vista V2 Stroller",
+        "qty": 1,
+        "price_aed": 3299.0
+      }
+    ],
+    "total_aed": 3299.0,
+    "payment_method": "credit_card",
+    "address": "Dubai, UAE"
+  },
+  "MW-10115": {
+    "order_id": "MW-10115",
+    "customer_name": "Maryam Saleh",
+    "email": "maryam.s@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-25",
+    "items": [
+      {
+        "product_id": "P-CAR-002",
+        "name": "Maxi-Cosi Pebble 360 Pro Car Seat",
+        "qty": 1,
+        "price_aed": 1650.0
+      }
+    ],
+    "total_aed": 1650.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-25",
+    "address": "Dubai, UAE",
+    "notes": "Customer reported item damaged on delivery"
+  },
+  "MW-10130": {
+    "order_id": "MW-10130",
+    "customer_name": "Aisha Mohammed",
+    "email": "aisha.m@example.com",
+    "status": "cancelled",
+    "cancelled_date": "2026-04-26",
+    "refund_status": "pending",
+    "items": [
+      {
+        "product_id": "P-MON-004",
+        "name": "Motorola VM65 Baby Monitor",
+        "qty": 1,
+        "price_aed": 549.0
+      }
+    ],
+    "total_aed": 549.0,
+    "payment_method": "credit_card",
+    "address": "Kuwait City, Kuwait"
+  },
+  "MW-10144": {
+    "order_id": "MW-10144",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-22",
+    "items": [
+      {
+        "product_id": "P-BAG-011",
+        "name": "Storksak Alyssa Leather Changing Bag",
+        "qty": 1,
+        "price_aed": 895.0
+      },
+      {
+        "product_id": "P-SFT-009",
+        "name": "Summer Infant Pop n Sit Portable Booster",
+        "qty": 1,
+        "price_aed": 249.0
+      }
+    ],
+    "total_aed": 1144.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-22",
+    "address": "Dubai, UAE"
+  },
+  "MW-10158": {
+    "order_id": "MW-10158",
+    "customer_name": "Noura Al Rashidi",
+    "email": "noura.r@example.com",
+    "status": "in_transit",
+    "estimated_delivery": "2026-04-30",
+    "tracking_number": "DHL-772934-KWI",
+    "courier": "DHL Express",
+    "items": [
+      {
+        "product_id": "P-STR-006",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 1,
+        "price_aed": 3850.0
+      }
+    ],
+    "total_aed": 3850.0,
+    "payment_method": "credit_card",
+    "address": "Kuwait City, Kuwait"
+  },
+  "MW-10172": {
+    "order_id": "MW-10172",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-10",
+    "items": [
+      {
+        "product_id": "P-FOR-008",
+        "name": "Aptamil Profutura Stage 1 Baby Formula 800g",
+        "qty": 4,
+        "price_aed": 189.0
+      },
+      {
+        "product_id": "P-BTL-012",
+        "name": "Dr. Brown Natural Flow Bottle Set",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 905.0,
+    "payment_method": "credit_card",
+    "returnable_until": "N/A (formula non-returnable)",
+    "address": "Abu Dhabi, UAE"
+  },
+  "MW-10185": {
+    "order_id": "MW-10185",
+    "customer_name": "Shaikha Al Muhairi",
+    "email": "shaikha.m@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-18",
+    "items": [
+      {
+        "product_id": "P-CAR-013",
+        "name": "Joie i-Spin 360 Car Seat",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 1299.0,
+    "payment_method": "tabby_installments",
+    "returnable_until": "2026-05-18",
+    "address": "Ras Al Khaimah, UAE"
+  },
+  "MW-10199": {
+    "order_id": "MW-10199",
+    "customer_name": "Manal Al Khaja",
+    "email": "manal.k@example.com",
+    "status": "out_for_delivery",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "FDX-119283-DXB",
+    "courier": "FedEx",
+    "items": [
+      {
+        "product_id": "P-TOY-014",
+        "name": "LEGO DUPLO Classic Brick Box",
+        "qty": 1,
+        "price_aed": 199.0
+      },
+      {
+        "product_id": "P-CLO-015",
+        "name": "Purebaby Organic Cotton Onesie 6-Pack",
+        "qty": 2,
+        "price_aed": 215.0
+      }
+    ],
+    "total_aed": 629.0,
+    "payment_method": "apple_pay",
+    "address": "Sharjah, UAE"
+  },
+  "MW-10211": {
+    "order_id": "MW-10211",
+    "customer_name": "Hessa Al Blooshi",
+    "email": "hessa.b@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-03-28",
+    "items": [
+      {
+        "product_id": "P-STR-001",
+        "name": "Cybex Gazelle S Stroller",
+        "qty": 1,
+        "price_aed": 2199.0
+      }
+    ],
+    "total_aed": 2199.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-04-27",
+    "return_window_expired": true,
+    "address": "Dubai, UAE",
+    "notes": "Return window expired 1 day ago"
+  },
+  "MW-10224": {
+    "order_id": "MW-10224",
+    "customer_name": "Alia Al Marri",
+    "email": "alia.m@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-26",
+    "items": [
+      {
+        "product_id": "P-MON-016",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-BAG-011",
+        "name": "Storksak Alyssa Leather Changing Bag",
+        "qty": 1,
+        "price_aed": 895.0
+      }
+    ],
+    "total_aed": 2194.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-26",
+    "address": "Dubai, UAE"
+  },
+  "MW-10238": {
+    "order_id": "MW-10238",
+    "customer_name": "Salama Al Neyadi",
+    "email": "salama.n@example.com",
+    "status": "cancelled",
+    "cancelled_date": "2026-04-27",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-27",
+    "items": [
+      {
+        "product_id": "P-STR-006",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 1,
+        "price_aed": 3850.0
+      }
+    ],
+    "total_aed": 3850.0,
+    "payment_method": "credit_card",
+    "address": "Doha, Qatar",
+    "notes": "Customer cancelled before dispatch; full refund issued same day"
+  },
+  "MW-10251": {
+    "order_id": "MW-10251",
+    "customer_name": "Wadha Al Ketbi",
+    "email": "wadha.k@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-24",
+    "items": [
+      {
+        "product_id": "P-SFT-009",
+        "name": "Summer Infant Pop n Sit Portable Booster",
+        "qty": 1,
+        "price_aed": 249.0
+      },
+      {
+        "product_id": "P-TOY-007",
+        "name": "Fisher-Price Rainforest Jumperoo",
+        "qty": 1,
+        "price_aed": 399.0
+      }
+    ],
+    "total_aed": 648.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-24",
+    "address": "Muscat, Oman"
+  },
+  "MW-10265": {
+    "order_id": "MW-10265",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-21",
+    "items": [
+      {
+        "product_id": "P-CAR-002",
+        "name": "Maxi-Cosi Pebble 360 Pro Car Seat",
+        "qty": 1,
+        "price_aed": 1650.0
+      }
+    ],
+    "total_aed": 1650.0,
+    "payment_method": "tabby_installments",
+    "returnable_until": "2026-05-21",
+    "address": "Manama, Bahrain",
+    "notes": "Customer called to say latch mechanism feels loose — potential safety concern"
+  },
+  "MW-10278": {
+    "order_id": "MW-10278",
+    "customer_name": "Mouza Al Hameli",
+    "email": "mouza.h@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-MON-016",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-CLO-010",
+        "name": "Mamas & Papas Sleepsuit 3-Pack (0-3M)",
+        "qty": 2,
+        "price_aed": 125.0
+      }
+    ],
+    "total_aed": 1549.0,
+    "payment_method": "credit_card",
+    "address": "Jeddah, KSA"
+  },
+  "MW-10291": {
+    "order_id": "MW-10291",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-19",
+    "items": [
+      {
+        "product_id": "P-STR-005",
+        "name": "UPPAbaby Vista V2 Stroller",
+        "qty": 1,
+        "price_aed": 3299.0
+      }
+    ],
+    "total_aed": 3299.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-19",
+    "address": "Dubai, UAE",
+    "notes": "Wheel squeaks reported; may be warranty issue not a return"
+  },
+  "MW-10304": {
+    "order_id": "MW-10304",
+    "customer_name": "Afra Al Shamsi",
+    "email": "afra.s@example.com",
+    "status": "delivered",
+    "delivery_date": "2026-04-23",
+    "items": [
+      {
+        "product_id": "P-BTL-003",
+        "name": "Philips Avent Natural Bottle 260ml (3-pack)",
+        "qty": 3,
+        "price_aed": 89.0
+      },
+      {
+        "product_id": "P-FOR-008",
+        "name": "Aptamil Profutura Stage 1 Baby Formula 800g",
+        "qty": 2,
+        "price_aed": 189.0
+      }
+    ],
+    "total_aed": 645.0,
+    "payment_method": "credit_card",
+    "returnable_until": "2026-05-23 (bottles only; formula non-returnable)",
+    "address": "Al Ain, UAE"
+  },
+  "MW-11000": {
+    "order_id": "MW-11000",
+    "customer_name": "Wadha Al Ketbi",
+    "email": "wadha.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BOK-001",
+        "name": "The Very Hungry Caterpillar (Board Book)",
+        "qty": 1,
+        "price_aed": 35.0
+      }
+    ],
+    "total_aed": 35.0,
+    "payment_method": "google_pay",
+    "address": "Muscat, Oman",
+    "delivery_date": "2026-02-10",
+    "returnable_until": "2026-03-12",
+    "return_window_expired": true
+  },
+  "MW-11007": {
+    "order_id": "MW-11007",
+    "customer_name": "Rawan Al Malki",
+    "email": "rawan.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-012",
+        "name": "Munchkin LATCH Bottle Warmer",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 1,
+        "price_aed": 65.0
+      },
+      {
+        "product_id": "P-DIA-001",
+        "name": "Pampers Premium Care Diapers NB 80pcs",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 303.0,
+    "payment_method": "credit_card",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-02-22",
+    "returnable_until": "2026-03-24",
+    "return_window_expired": true
+  },
+  "MW-11009": {
+    "order_id": "MW-11009",
+    "customer_name": "Dalal Al Mutairi",
+    "email": "dalal.m@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-CLO-004",
+        "name": "H&M Baby Cotton Set (top+pants)",
+        "qty": 1,
+        "price_aed": 89.0
+      },
+      {
+        "product_id": "P-STR-001",
+        "name": "Cybex Gazelle S Stroller",
+        "qty": 1,
+        "price_aed": 2199.0
+      }
+    ],
+    "total_aed": 2288.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Al Ain, UAE"
+  },
+  "MW-11015": {
+    "order_id": "MW-11015",
+    "customer_name": "Meera Al Ketbi",
+    "email": "meera.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-005",
+        "name": "Mothercare All Stars Socks 7-Pack",
+        "qty": 2,
+        "price_aed": 45.0
+      }
+    ],
+    "total_aed": 90.0,
+    "payment_method": "credit_card",
+    "address": "Abu Dhabi, UAE",
+    "delivery_date": "2026-02-02",
+    "returnable_until": "2026-03-04",
+    "return_window_expired": true
+  },
+  "MW-11018": {
+    "order_id": "MW-11018",
+    "customer_name": "Mouza Al Hameli",
+    "email": "mouza.h@example.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "P-FED-003",
+        "name": "Tommee Tippee Closer to Nature Bottle",
+        "qty": 3,
+        "price_aed": 69.0
+      },
+      {
+        "product_id": "P-TOY-005",
+        "name": "Skip Hop Activity Gym",
+        "qty": 1,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-OUT-003",
+        "name": "Sunstyle UV Protection Swimsuit Baby",
+        "qty": 1,
+        "price_aed": 119.0
+      }
+    ],
+    "total_aed": 675.0,
+    "payment_method": "apple_pay",
+    "address": "Khobar, KSA",
+    "cancelled_date": "2026-04-25",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-27"
+  },
+  "MW-11020": {
+    "order_id": "MW-11020",
+    "customer_name": "Lujain Al Rashidi",
+    "email": "lujain.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-STR-008",
+        "name": "Maxi-Cosi Leona² Pushchair",
+        "qty": 1,
+        "price_aed": 1750.0
+      },
+      {
+        "product_id": "P-FED-007",
+        "name": "Aptamil Profutura Stage 1 800g",
+        "qty": 1,
+        "price_aed": 189.0
+      }
+    ],
+    "total_aed": 1939.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Ras Al Khaimah, UAE",
+    "delivery_date": "2026-04-18"
+  },
+  "MW-11025": {
+    "order_id": "MW-11025",
+    "customer_name": "Ghada Al Rashidi",
+    "email": "ghada.r@example.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "P-FED-009",
+        "name": "Stokke Tripp Trapp High Chair",
+        "qty": 2,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 3897.0,
+    "payment_method": "credit_card",
+    "address": "Khobar, KSA",
+    "cancelled_date": "2026-04-07",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-10"
+  },
+  "MW-11032": {
+    "order_id": "MW-11032",
+    "customer_name": "Emma Williams",
+    "email": "emma.w@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-FED-009",
+        "name": "Stokke Tripp Trapp High Chair",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-FED-002",
+        "name": "Dr. Brown's Natural Flow Bottle Set 4-pack",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 2147.0,
+    "payment_method": "credit_card",
+    "address": "Riyadh, KSA"
+  },
+  "MW-11040": {
+    "order_id": "MW-11040",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-PAR-001",
+        "name": "My 1st Birthday Party Kit (Pink)",
+        "qty": 3,
+        "price_aed": 129.0
+      }
+    ],
+    "total_aed": 387.0,
+    "payment_method": "google_pay",
+    "address": "Doha, Qatar",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "QAT-197793-QAT",
+    "courier": "Qatar Post"
+  },
+  "MW-11044": {
+    "order_id": "MW-11044",
+    "customer_name": "Manal Al Khaja",
+    "email": "manal.k@example.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "P-STR-001",
+        "name": "Cybex Gazelle S Stroller",
+        "qty": 3,
+        "price_aed": 2199.0
+      }
+    ],
+    "total_aed": 6597.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Ajman, UAE",
+    "cancelled_date": "2026-03-30",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-02"
+  },
+  "MW-11051": {
+    "order_id": "MW-11051",
+    "customer_name": "Mariam Al Thani",
+    "email": "mariam.t@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-001",
+        "name": "Belabumbum Maternity Nightgown",
+        "qty": 1,
+        "price_aed": 249.0
+      }
+    ],
+    "total_aed": 249.0,
+    "payment_method": "credit_card",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-04-20",
+    "returnable_until": "2026-05-20"
+  },
+  "MW-11059": {
+    "order_id": "MW-11059",
+    "customer_name": "Lara Al Otaibi",
+    "email": "lara.o@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PHA-005",
+        "name": "Mama's Choice Vitamin D Drops",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 79.0,
+    "payment_method": "credit_card",
+    "address": "Manama, Bahrain",
+    "delivery_date": "2026-03-07",
+    "returnable_until": "2026-04-06",
+    "return_window_expired": true
+  },
+  "MW-11063": {
+    "order_id": "MW-11063",
+    "customer_name": "Hana Al Zahrani",
+    "email": "hana.z@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-FED-011",
+        "name": "Summer Infant Pop n Sit Booster",
+        "qty": 1,
+        "price_aed": 249.0
+      },
+      {
+        "product_id": "P-FED-004",
+        "name": "Medela Pump In Style Advanced",
+        "qty": 1,
+        "price_aed": 1149.0
+      }
+    ],
+    "total_aed": 1398.0,
+    "payment_method": "credit_card",
+    "address": "Khobar, KSA",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "ARA-237235-KSA",
+    "courier": "Aramex"
+  },
+  "MW-11068": {
+    "order_id": "MW-11068",
+    "customer_name": "Maria Santos",
+    "email": "maria.s@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CAR-005",
+        "name": "Graco 4Ever DLX 4-in-1 Car Seat",
+        "qty": 1,
+        "price_aed": 999.0
+      },
+      {
+        "product_id": "P-CAR-002",
+        "name": "Joie i-Spin 360 Car Seat",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 2298.0,
+    "payment_method": "credit_card",
+    "address": "Fujairah, UAE",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "DHL-172132-UAE",
+    "courier": "DHL Express"
+  },
+  "MW-11072": {
+    "order_id": "MW-11072",
+    "customer_name": "Ohood Al Shamsi",
+    "email": "ohood.s@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-STR-002",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 1,
+        "price_aed": 3850.0
+      },
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 3919.0,
+    "payment_method": "tabby_installments",
+    "address": "Ajman, UAE",
+    "return_initiated": "2026-04-07",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-11"
+  },
+  "MW-11075": {
+    "order_id": "MW-11075",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      }
+    ],
+    "total_aed": 349.0,
+    "payment_method": "tamara_installments",
+    "address": "Abu Dhabi, UAE",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "ARA-765095-UAE",
+    "courier": "Aramex"
+  },
+  "MW-11082": {
+    "order_id": "MW-11082",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      },
+      {
+        "product_id": "P-BAT-002",
+        "name": "Fisher-Price 4-in-1 Sling n Seat Tub",
+        "qty": 1,
+        "price_aed": 179.0
+      }
+    ],
+    "total_aed": 248.0,
+    "payment_method": "credit_card",
+    "address": "Sharjah, UAE",
+    "delivery_date": "2026-02-17",
+    "returnable_until": "2026-03-19",
+    "return_window_expired": true,
+    "notes": "Possible safety concern flagged"
+  },
+  "MW-11085": {
+    "order_id": "MW-11085",
+    "customer_name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-DIA-003",
+        "name": "Huggies Platinum Diapers Size 4 84pcs",
+        "qty": 1,
+        "price_aed": 95.0
+      },
+      {
+        "product_id": "P-FED-004",
+        "name": "Medela Pump In Style Advanced",
+        "qty": 1,
+        "price_aed": 1149.0
+      },
+      {
+        "product_id": "P-FED-009",
+        "name": "Stokke Tripp Trapp High Chair",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 2543.0,
+    "payment_method": "tamara_installments",
+    "address": "Sharjah, UAE"
+  },
+  "MW-11088": {
+    "order_id": "MW-11088",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-OUT-004",
+        "name": "Babymoov Freshness Lunch Bag",
+        "qty": 2,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 298.0,
+    "payment_method": "apple_pay",
+    "address": "Doha, Qatar"
+  },
+  "MW-11093": {
+    "order_id": "MW-11093",
+    "customer_name": "Manal Al Khaja",
+    "email": "manal.k@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 149.0,
+    "payment_method": "apple_pay",
+    "address": "Kuwait City, Kuwait",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "ARA-333752-KUW",
+    "courier": "Aramex"
+  },
+  "MW-11094": {
+    "order_id": "MW-11094",
+    "customer_name": "Ghada Al Rashidi",
+    "email": "ghada.r@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 1,
+        "price_aed": 65.0
+      }
+    ],
+    "total_aed": 65.0,
+    "payment_method": "tabby_installments",
+    "address": "Sharjah, UAE",
+    "return_initiated": "2026-04-22",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-29"
+  },
+  "MW-11097": {
+    "order_id": "MW-11097",
+    "customer_name": "Hana Al Zahrani",
+    "email": "hana.z@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 1,
+        "price_aed": 119.0
+      },
+      {
+        "product_id": "P-BAT-003",
+        "name": "Mustela Gentle Cleansing Gel 500ml",
+        "qty": 1,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 188.0,
+    "payment_method": "credit_card",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-02-13",
+    "returnable_until": "2026-03-15",
+    "return_window_expired": true
+  },
+  "MW-11098": {
+    "order_id": "MW-11098",
+    "customer_name": "Hamda Al Kuwari",
+    "email": "hamda.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-TOY-008",
+        "name": "Bright Starts Bounce Bouncer",
+        "qty": 1,
+        "price_aed": 299.0
+      },
+      {
+        "product_id": "P-HOM-003",
+        "name": "Diono Ultra Dry Seat Waterproof Liner",
+        "qty": 2,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 597.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Ras Al Khaimah, UAE",
+    "delivery_date": "2026-02-22",
+    "returnable_until": "2026-03-24",
+    "return_window_expired": true
+  },
+  "MW-11105": {
+    "order_id": "MW-11105",
+    "customer_name": "Noura Al Mansoori",
+    "email": "noura.ma@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-BED-008",
+        "name": "Gravity Baby Sleep Sack 0–6M",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 149.0,
+    "payment_method": "credit_card",
+    "address": "Sharjah, UAE",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "EMP-674553-UAE",
+    "courier": "Emirates Post"
+  },
+  "MW-11106": {
+    "order_id": "MW-11106",
+    "customer_name": "Meera Al Ketbi",
+    "email": "meera.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 2,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 2598.0,
+    "payment_method": "tamara_installments",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-02-02",
+    "returnable_until": "2026-03-04",
+    "return_window_expired": true
+  },
+  "MW-11112": {
+    "order_id": "MW-11112",
+    "customer_name": "Maryam Saleh",
+    "email": "maryam.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-009",
+        "name": "Stokke Tripp Trapp High Chair",
+        "qty": 3,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 3897.0,
+    "payment_method": "tabby_installments",
+    "address": "Kuwait City, Kuwait",
+    "delivery_date": "2026-02-28",
+    "returnable_until": "2026-03-30",
+    "return_window_expired": true
+  },
+  "MW-11116": {
+    "order_id": "MW-11116",
+    "customer_name": "Hamda Al Kuwari",
+    "email": "hamda.k@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 2,
+        "price_aed": 699.0
+      }
+    ],
+    "total_aed": 1398.0,
+    "payment_method": "apple_pay",
+    "address": "Mecca, KSA",
+    "estimated_delivery": "2026-04-30",
+    "tracking_number": "NQL-943170-KSA",
+    "courier": "Naqel Express"
+  },
+  "MW-11124": {
+    "order_id": "MW-11124",
+    "customer_name": "Layla Qasim",
+    "email": "layla.q@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-003",
+        "name": "Carriwell Seamless Drop-Cup Nursing Bra",
+        "qty": 1,
+        "price_aed": 159.0
+      },
+      {
+        "product_id": "P-PHA-005",
+        "name": "Mama's Choice Vitamin D Drops",
+        "qty": 2,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 317.0,
+    "payment_method": "google_pay",
+    "address": "Riyadh, KSA",
+    "delivery_date": "2026-02-08",
+    "returnable_until": "2026-03-10",
+    "return_window_expired": true
+  },
+  "MW-11131": {
+    "order_id": "MW-11131",
+    "customer_name": "Abeer Al Dossari",
+    "email": "abeer.d@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-TOY-001",
+        "name": "Fisher-Price Rainforest Jumperoo",
+        "qty": 1,
+        "price_aed": 399.0
+      },
+      {
+        "product_id": "P-CLO-003",
+        "name": "Purebaby Organic Onesie 6-Pack",
+        "qty": 1,
+        "price_aed": 215.0
+      },
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      }
+    ],
+    "total_aed": 963.0,
+    "payment_method": "google_pay",
+    "address": "Abu Dhabi, UAE"
+  },
+  "MW-11135": {
+    "order_id": "MW-11135",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-005",
+        "name": "Spectra S1 Plus Double Breast Pump",
+        "qty": 1,
+        "price_aed": 899.0
+      },
+      {
+        "product_id": "P-CAR-001",
+        "name": "Maxi-Cosi Pebble 360 Pro Car Seat",
+        "qty": 1,
+        "price_aed": 1650.0
+      }
+    ],
+    "total_aed": 2549.0,
+    "payment_method": "credit_card",
+    "address": "Ras Al Khaimah, UAE",
+    "delivery_date": "2026-03-05"
+  },
+  "MW-11142": {
+    "order_id": "MW-11142",
+    "customer_name": "Latifa Al Kaabi",
+    "email": "latifa.k@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-OUT-001",
+        "name": "Phil & Teds Explorer Inline Stroller",
+        "qty": 2,
+        "price_aed": 2199.0
+      }
+    ],
+    "total_aed": 4398.0,
+    "payment_method": "apple_pay",
+    "address": "Manama, Bahrain",
+    "return_initiated": "2026-03-20",
+    "refund_status": "pending"
+  },
+  "MW-11146": {
+    "order_id": "MW-11146",
+    "customer_name": "Noura Al Rashidi",
+    "email": "noura.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-OUT-003",
+        "name": "Sunstyle UV Protection Swimsuit Baby",
+        "qty": 2,
+        "price_aed": 119.0
+      },
+      {
+        "product_id": "P-BED-007",
+        "name": "Aerosleep Evolution Pack (mattress+cover)",
+        "qty": 2,
+        "price_aed": 899.0
+      }
+    ],
+    "total_aed": 2036.0,
+    "payment_method": "google_pay",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-03-08",
+    "returnable_until": "2026-04-07",
+    "return_window_expired": true
+  },
+  "MW-11147": {
+    "order_id": "MW-11147",
+    "customer_name": "Maryam Saleh",
+    "email": "maryam.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 149.0,
+    "payment_method": "google_pay",
+    "address": "Jeddah, KSA",
+    "delivery_date": "2026-03-23",
+    "returnable_until": "2026-04-22",
+    "return_window_expired": true
+  },
+  "MW-11154": {
+    "order_id": "MW-11154",
+    "customer_name": "Mouza Al Hameli",
+    "email": "mouza.h@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-006",
+        "name": "Haakaa Silicone Breast Pump 150ml",
+        "qty": 2,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-PAR-001",
+        "name": "My 1st Birthday Party Kit (Pink)",
+        "qty": 2,
+        "price_aed": 129.0
+      },
+      {
+        "product_id": "P-CAR-001",
+        "name": "Maxi-Cosi Pebble 360 Pro Car Seat",
+        "qty": 1,
+        "price_aed": 1650.0
+      },
+      {
+        "product_id": "P-STR-006",
+        "name": "Chicco Urban Plus Stroller",
+        "qty": 1,
+        "price_aed": 1199.0
+      }
+    ],
+    "total_aed": 3265.0,
+    "payment_method": "credit_card",
+    "address": "Al Wakra, Qatar",
+    "delivery_date": "2026-03-28",
+    "returnable_until": "2026-04-27",
+    "return_window_expired": true
+  },
+  "MW-11156": {
+    "order_id": "MW-11156",
+    "customer_name": "Dima Al Harbi",
+    "email": "dima.h@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CAR-007",
+        "name": "Ergobaby Omni 360 Cool Air Carrier",
+        "qty": 3,
+        "price_aed": 549.0
+      },
+      {
+        "product_id": "P-BED-006",
+        "name": "Tommee Tippee Sleeptime Lite Night Light",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 1796.0,
+    "payment_method": "tabby_installments",
+    "address": "Riffa, Bahrain",
+    "delivery_date": "2026-03-19",
+    "returnable_until": "2026-04-18",
+    "return_window_expired": true
+  },
+  "MW-11163": {
+    "order_id": "MW-11163",
+    "customer_name": "Sarah Johnson",
+    "email": "sarah.j@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-TOY-004",
+        "name": "Hape Pound & Tap Bench",
+        "qty": 2,
+        "price_aed": 129.0
+      }
+    ],
+    "total_aed": 258.0,
+    "payment_method": "credit_card",
+    "address": "Manama, Bahrain",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "BHP-934904-BAH",
+    "courier": "Bahrain Post"
+  },
+  "MW-11164": {
+    "order_id": "MW-11164",
+    "customer_name": "Shamsa Al Nuaimi",
+    "email": "shamsa.n@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 3,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-BAT-003",
+        "name": "Mustela Gentle Cleansing Gel 500ml",
+        "qty": 2,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 1884.0,
+    "payment_method": "credit_card",
+    "address": "Dammam, KSA",
+    "delivery_date": "2026-03-03",
+    "returnable_until": "2026-04-02",
+    "return_window_expired": true
+  },
+  "MW-11169": {
+    "order_id": "MW-11169",
+    "customer_name": "Sama Al Shehri",
+    "email": "sama.sh@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-TOY-007",
+        "name": "Infantino Flip 4-in-1 Carrier + Gym",
+        "qty": 2,
+        "price_aed": 249.0
+      },
+      {
+        "product_id": "P-FED-009",
+        "name": "Stokke Tripp Trapp High Chair",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 1797.0,
+    "payment_method": "google_pay",
+    "address": "Salmiya, Kuwait",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "DHL-355709-KUW",
+    "courier": "DHL Express"
+  },
+  "MW-11177": {
+    "order_id": "MW-11177",
+    "customer_name": "Dima Al Harbi",
+    "email": "dima.h@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-FED-005",
+        "name": "Spectra S1 Plus Double Breast Pump",
+        "qty": 1,
+        "price_aed": 899.0
+      }
+    ],
+    "total_aed": 899.0,
+    "payment_method": "tamara_installments",
+    "address": "Mecca, KSA",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "ARA-456871-KSA",
+    "courier": "Aramex"
+  },
+  "MW-11182": {
+    "order_id": "MW-11182",
+    "customer_name": "Rawan Al Malki",
+    "email": "rawan.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-OUT-004",
+        "name": "Babymoov Freshness Lunch Bag",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 149.0,
+    "payment_method": "credit_card",
+    "address": "Hawalli, Kuwait",
+    "delivery_date": "2026-01-29",
+    "returnable_until": "2026-02-28",
+    "return_window_expired": true
+  },
+  "MW-11190": {
+    "order_id": "MW-11190",
+    "customer_name": "Jennifer Lee",
+    "email": "jennifer.l@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-PHA-003",
+        "name": "FridaBaby NoseFrida Snot Sucker",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 89.0,
+    "payment_method": "tabby_installments",
+    "address": "Kuwait City, Kuwait",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "DHL-882169-KUW",
+    "courier": "DHL Express"
+  },
+  "MW-11196": {
+    "order_id": "MW-11196",
+    "customer_name": "Shamsa Al Nuaimi",
+    "email": "shamsa.n@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BED-001",
+        "name": "Chicco Next2Me Magic Bedside Crib",
+        "qty": 1,
+        "price_aed": 1499.0
+      }
+    ],
+    "total_aed": 1499.0,
+    "payment_method": "tabby_installments",
+    "address": "Hawalli, Kuwait",
+    "delivery_date": "2026-04-03",
+    "returnable_until": "2026-05-03"
+  },
+  "MW-11204": {
+    "order_id": "MW-11204",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-DIA-004",
+        "name": "Mamypoko Pants Size M 62pcs",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 79.0,
+    "payment_method": "tabby_installments",
+    "address": "Salmiya, Kuwait",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "ARA-842411-KUW",
+    "courier": "Aramex"
+  },
+  "MW-11207": {
+    "order_id": "MW-11207",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-STR-002",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 1,
+        "price_aed": 3850.0
+      }
+    ],
+    "total_aed": 4898.0,
+    "payment_method": "tabby_installments",
+    "address": "Dubai, UAE",
+    "delivery_date": "2026-04-21",
+    "returnable_until": "2026-05-21"
+  },
+  "MW-11215": {
+    "order_id": "MW-11215",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-BED-005",
+        "name": "aden+anais Organic Muslin Swaddle 4-Pack",
+        "qty": 2,
+        "price_aed": 189.0
+      }
+    ],
+    "total_aed": 378.0,
+    "payment_method": "google_pay",
+    "address": "Al Wakra, Qatar",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "ARA-360247-QAT",
+    "courier": "Aramex"
+  },
+  "MW-11217": {
+    "order_id": "MW-11217",
+    "customer_name": "Abeer Al Dossari",
+    "email": "abeer.d@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-TOY-004",
+        "name": "Hape Pound & Tap Bench",
+        "qty": 1,
+        "price_aed": 129.0
+      },
+      {
+        "product_id": "P-PHA-004",
+        "name": "Gripe Water 150ml",
+        "qty": 1,
+        "price_aed": 35.0
+      },
+      {
+        "product_id": "P-BAT-002",
+        "name": "Fisher-Price 4-in-1 Sling n Seat Tub",
+        "qty": 1,
+        "price_aed": 179.0
+      }
+    ],
+    "total_aed": 343.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Salmiya, Kuwait",
+    "delivery_date": "2026-04-01",
+    "returnable_until": "2026-04-15",
+    "return_window_expired": true
+  },
+  "MW-11222": {
+    "order_id": "MW-11222",
+    "customer_name": "Ghada Al Rashidi",
+    "email": "ghada.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PHA-005",
+        "name": "Mama's Choice Vitamin D Drops",
+        "qty": 1,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 1378.0,
+    "payment_method": "credit_card",
+    "address": "Abu Dhabi, UAE",
+    "delivery_date": "2026-01-28",
+    "returnable_until": "2026-02-27",
+    "return_window_expired": true
+  },
+  "MW-11224": {
+    "order_id": "MW-11224",
+    "customer_name": "Farah Al Enezi",
+    "email": "farah.e@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-FED-012",
+        "name": "Munchkin LATCH Bottle Warmer",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-BED-004",
+        "name": "IKEA SNIGLAR Crib",
+        "qty": 1,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 448.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Sharjah, UAE",
+    "estimated_delivery": "2026-05-03",
+    "tracking_number": "EMP-885339-UAE",
+    "courier": "Emirates Post"
+  },
+  "MW-11229": {
+    "order_id": "MW-11229",
+    "customer_name": "Jennifer Lee",
+    "email": "jennifer.l@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-SAF-005",
+        "name": "Braun ThermoScan 7 Ear Thermometer",
+        "qty": 1,
+        "price_aed": 279.0
+      },
+      {
+        "product_id": "P-BAT-004",
+        "name": "Bioderma ABCDerm Cleansing Gel 200ml",
+        "qty": 1,
+        "price_aed": 55.0
+      }
+    ],
+    "total_aed": 334.0,
+    "payment_method": "tabby_installments",
+    "address": "Al Ain, UAE",
+    "return_initiated": "2026-04-03",
+    "refund_status": "pending"
+  },
+  "MW-11234": {
+    "order_id": "MW-11234",
+    "customer_name": "Fatima Al Zaabi",
+    "email": "fatima.z@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-STR-006",
+        "name": "Chicco Urban Plus Stroller",
+        "qty": 2,
+        "price_aed": 1199.0
+      }
+    ],
+    "total_aed": 2398.0,
+    "payment_method": "credit_card",
+    "address": "Al Ain, UAE",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "DHL-644173-UAE",
+    "courier": "DHL Express"
+  },
+  "MW-11242": {
+    "order_id": "MW-11242",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-DIA-002",
+        "name": "Pampers Premium Care Diapers Size 3 120pcs",
+        "qty": 1,
+        "price_aed": 99.0
+      }
+    ],
+    "total_aed": 99.0,
+    "payment_method": "apple_pay",
+    "address": "Ras Al Khaimah, UAE",
+    "delivery_date": "2026-02-01",
+    "returnable_until": "2026-03-03",
+    "return_window_expired": true
+  },
+  "MW-11245": {
+    "order_id": "MW-11245",
+    "customer_name": "Lujain Al Rashidi",
+    "email": "lujain.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-STR-005",
+        "name": "Joie Versatrax Stroller",
+        "qty": 1,
+        "price_aed": 1399.0
+      },
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-CAR-004",
+        "name": "BeSafe iZi Go Modular i-Size",
+        "qty": 3,
+        "price_aed": 1499.0
+      }
+    ],
+    "total_aed": 6045.0,
+    "payment_method": "tabby_installments",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-02-21",
+    "returnable_until": "2026-03-23",
+    "return_window_expired": true
+  },
+  "MW-11246": {
+    "order_id": "MW-11246",
+    "customer_name": "Ghada Al Rashidi",
+    "email": "ghada.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-005",
+        "name": "Braun ThermoScan 7 Ear Thermometer",
+        "qty": 1,
+        "price_aed": 279.0
+      },
+      {
+        "product_id": "P-BOK-001",
+        "name": "The Very Hungry Caterpillar (Board Book)",
+        "qty": 1,
+        "price_aed": 35.0
+      }
+    ],
+    "total_aed": 314.0,
+    "payment_method": "apple_pay",
+    "address": "Al Wakra, Qatar",
+    "delivery_date": "2026-02-16",
+    "returnable_until": "2026-03-18",
+    "return_window_expired": true
+  },
+  "MW-11251": {
+    "order_id": "MW-11251",
+    "customer_name": "Jennifer Lee",
+    "email": "jennifer.l@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-BED-006",
+        "name": "Tommee Tippee Sleeptime Lite Night Light",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-TOY-005",
+        "name": "Skip Hop Activity Gym",
+        "qty": 1,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 567.0,
+    "payment_method": "credit_card",
+    "address": "Al Wakra, Qatar",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "QAT-223172-QAT",
+    "courier": "Qatar Post"
+  },
+  "MW-11254": {
+    "order_id": "MW-11254",
+    "customer_name": "Noura Al Rashidi",
+    "email": "noura.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 218.0,
+    "payment_method": "tabby_installments",
+    "address": "Riffa, Bahrain",
+    "delivery_date": "2026-04-19",
+    "returnable_until": "2026-05-19"
+  },
+  "MW-11261": {
+    "order_id": "MW-11261",
+    "customer_name": "Lujain Al Rashidi",
+    "email": "lujain.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 2,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      }
+    ],
+    "total_aed": 507.0,
+    "payment_method": "credit_card",
+    "address": "Riffa, Bahrain",
+    "delivery_date": "2026-03-14",
+    "returnable_until": "2026-04-13",
+    "return_window_expired": true
+  },
+  "MW-11268": {
+    "order_id": "MW-11268",
+    "customer_name": "Maria Santos",
+    "email": "maria.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-STR-006",
+        "name": "Chicco Urban Plus Stroller",
+        "qty": 1,
+        "price_aed": 1199.0
+      },
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 2,
+        "price_aed": 119.0
+      },
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 2736.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Manama, Bahrain",
+    "delivery_date": "2026-02-23",
+    "returnable_until": "2026-03-25",
+    "return_window_expired": true
+  },
+  "MW-11271": {
+    "order_id": "MW-11271",
+    "customer_name": "Lara Al Otaibi",
+    "email": "lara.o@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-STR-002",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 1,
+        "price_aed": 3850.0
+      }
+    ],
+    "total_aed": 3999.0,
+    "payment_method": "credit_card",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-04-18",
+    "returnable_until": "2026-05-18"
+  },
+  "MW-11276": {
+    "order_id": "MW-11276",
+    "customer_name": "Lujain Al Rashidi",
+    "email": "lujain.r@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-DIA-006",
+        "name": "Mustela Diaper Rash Cream 123",
+        "qty": 1,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 2,
+        "price_aed": 119.0
+      },
+      {
+        "product_id": "P-BOK-001",
+        "name": "The Very Hungry Caterpillar (Board Book)",
+        "qty": 2,
+        "price_aed": 35.0
+      }
+    ],
+    "total_aed": 387.0,
+    "payment_method": "credit_card",
+    "address": "Mecca, KSA",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "SMS-747453-KSA",
+    "courier": "SMSA Express"
+  },
+  "MW-11278": {
+    "order_id": "MW-11278",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BOK-002",
+        "name": "Goodnight Moon (Board Book)",
+        "qty": 1,
+        "price_aed": 39.0
+      }
+    ],
+    "total_aed": 39.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Dammam, KSA",
+    "delivery_date": "2026-03-02",
+    "returnable_until": "2026-04-01",
+    "return_window_expired": true
+  },
+  "MW-11283": {
+    "order_id": "MW-11283",
+    "customer_name": "Fatima Al Zaabi",
+    "email": "fatima.z@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-004",
+        "name": "H&M Baby Cotton Set (top+pants)",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 89.0,
+    "payment_method": "credit_card",
+    "address": "Fujairah, UAE",
+    "delivery_date": "2026-04-06",
+    "returnable_until": "2026-05-06"
+  },
+  "MW-11290": {
+    "order_id": "MW-11290",
+    "customer_name": "Sama Al Shehri",
+    "email": "sama.sh@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-STR-002",
+        "name": "Bugaboo Fox 5 Stroller",
+        "qty": 2,
+        "price_aed": 3850.0
+      },
+      {
+        "product_id": "P-SAF-001",
+        "name": "Motorola VM65 Baby Monitor",
+        "qty": 1,
+        "price_aed": 549.0
+      }
+    ],
+    "total_aed": 8249.0,
+    "payment_method": "credit_card",
+    "address": "Mecca, KSA",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "NQL-563187-KSA",
+    "courier": "Naqel Express"
+  },
+  "MW-11296": {
+    "order_id": "MW-11296",
+    "customer_name": "Hana Al Zahrani",
+    "email": "hana.z@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-003",
+        "name": "Safety 1st Extra Tall Walk-Thru Gate",
+        "qty": 1,
+        "price_aed": 299.0
+      },
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-FED-008",
+        "name": "NAN Supreme Stage 1 900g",
+        "qty": 3,
+        "price_aed": 175.0
+      },
+      {
+        "product_id": "P-DIA-006",
+        "name": "Mustela Diaper Rash Cream 123",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 1602.0,
+    "payment_method": "tabby_installments",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-03-23",
+    "notes": "Customer reported item damaged on delivery"
+  },
+  "MW-11304": {
+    "order_id": "MW-11304",
+    "customer_name": "Afra Al Shamsi",
+    "email": "afra.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 79.0,
+    "payment_method": "tamara_installments",
+    "address": "Kuwait City, Kuwait",
+    "delivery_date": "2026-02-06",
+    "returnable_until": "2026-03-08",
+    "return_window_expired": true
+  },
+  "MW-11305": {
+    "order_id": "MW-11305",
+    "customer_name": "Meera Al Ketbi",
+    "email": "meera.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-001",
+        "name": "Stokke Flexi Bath Foldable Tub",
+        "qty": 1,
+        "price_aed": 219.0
+      }
+    ],
+    "total_aed": 219.0,
+    "payment_method": "tamara_installments",
+    "address": "Kuwait City, Kuwait",
+    "delivery_date": "2026-02-17",
+    "returnable_until": "2026-03-19",
+    "return_window_expired": true
+  },
+  "MW-11311": {
+    "order_id": "MW-11311",
+    "customer_name": "Rana Al Qahtani",
+    "email": "rana.q@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-TOY-003",
+        "name": "VTech Sit-to-Stand Learning Walker",
+        "qty": 2,
+        "price_aed": 289.0
+      },
+      {
+        "product_id": "P-DIA-001",
+        "name": "Pampers Premium Care Diapers NB 80pcs",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 667.0,
+    "payment_method": "credit_card",
+    "address": "Dammam, KSA",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "SMS-247594-KSA",
+    "courier": "SMSA Express"
+  },
+  "MW-11315": {
+    "order_id": "MW-11315",
+    "customer_name": "Farah Al Enezi",
+    "email": "farah.e@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BED-001",
+        "name": "Chicco Next2Me Magic Bedside Crib",
+        "qty": 1,
+        "price_aed": 1499.0
+      }
+    ],
+    "total_aed": 1499.0,
+    "payment_method": "tamara_installments",
+    "address": "Hawalli, Kuwait",
+    "delivery_date": "2026-02-12",
+    "returnable_until": "2026-03-14",
+    "return_window_expired": true
+  },
+  "MW-11321": {
+    "order_id": "MW-11321",
+    "customer_name": "Aisha Mohammed",
+    "email": "aisha.m@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-HOM-002",
+        "name": "Summer Infant Deluxe SuperSeat",
+        "qty": 1,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 299.0,
+    "payment_method": "credit_card",
+    "address": "Mecca, KSA",
+    "return_initiated": "2026-03-14",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-03-21"
+  },
+  "MW-11328": {
+    "order_id": "MW-11328",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-005",
+        "name": "Mothercare All Stars Socks 7-Pack",
+        "qty": 1,
+        "price_aed": 45.0
+      }
+    ],
+    "total_aed": 45.0,
+    "payment_method": "tabby_installments",
+    "address": "Dubai, UAE",
+    "delivery_date": "2026-03-11",
+    "returnable_until": "2026-04-10",
+    "return_window_expired": true
+  },
+  "MW-11335": {
+    "order_id": "MW-11335",
+    "customer_name": "Hana Al Zahrani",
+    "email": "hana.z@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-TOY-001",
+        "name": "Fisher-Price Rainforest Jumperoo",
+        "qty": 1,
+        "price_aed": 399.0
+      },
+      {
+        "product_id": "P-STR-005",
+        "name": "Joie Versatrax Stroller",
+        "qty": 1,
+        "price_aed": 1399.0
+      }
+    ],
+    "total_aed": 1798.0,
+    "payment_method": "apple_pay",
+    "address": "Kuwait City, Kuwait",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "DHL-347582-KUW",
+    "courier": "DHL Express"
+  },
+  "MW-11341": {
+    "order_id": "MW-11341",
+    "customer_name": "Aisha Mohammed",
+    "email": "aisha.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-CAR-004",
+        "name": "BeSafe iZi Go Modular i-Size",
+        "qty": 1,
+        "price_aed": 1499.0
+      },
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 1,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-FED-005",
+        "name": "Spectra S1 Plus Double Breast Pump",
+        "qty": 2,
+        "price_aed": 899.0
+      }
+    ],
+    "total_aed": 3525.0,
+    "payment_method": "tamara_installments",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-04-11"
+  },
+  "MW-11345": {
+    "order_id": "MW-11345",
+    "customer_name": "Hana Al Khatri",
+    "email": "hana.k@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-BED-004",
+        "name": "IKEA SNIGLAR Crib",
+        "qty": 2,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 598.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Lusail, Qatar",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "QAT-390743-QAT",
+    "courier": "Qatar Post"
+  },
+  "MW-11348": {
+    "order_id": "MW-11348",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-008",
+        "name": "NAN Supreme Stage 1 900g",
+        "qty": 1,
+        "price_aed": 175.0
+      }
+    ],
+    "total_aed": 175.0,
+    "payment_method": "credit_card",
+    "address": "Jeddah, KSA",
+    "delivery_date": "2026-04-05"
+  },
+  "MW-11351": {
+    "order_id": "MW-11351",
+    "customer_name": "Fatima Al Khalifa",
+    "email": "fatima.k@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-BAT-005",
+        "name": "Safety 1st Tub",
+        "qty": 2,
+        "price_aed": 99.0
+      }
+    ],
+    "total_aed": 897.0,
+    "payment_method": "credit_card",
+    "address": "Dubai, UAE"
+  },
+  "MW-11356": {
+    "order_id": "MW-11356",
+    "customer_name": "Maria Santos",
+    "email": "maria.s@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      },
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      }
+    ],
+    "total_aed": 1048.0,
+    "payment_method": "credit_card",
+    "address": "Riyadh, KSA",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "SMS-437758-KSA",
+    "courier": "SMSA Express"
+  },
+  "MW-11359": {
+    "order_id": "MW-11359",
+    "customer_name": "Hana Al Khatri",
+    "email": "hana.k@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CLO-001",
+        "name": "Mamas & Papas Sleepsuit 3-Pack (0–3M)",
+        "qty": 1,
+        "price_aed": 125.0
+      }
+    ],
+    "total_aed": 125.0,
+    "payment_method": "tamara_installments",
+    "address": "Ras Al Khaimah, UAE",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "ARA-994217-UAE",
+    "courier": "Aramex"
+  },
+  "MW-11363": {
+    "order_id": "MW-11363",
+    "customer_name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CAR-005",
+        "name": "Graco 4Ever DLX 4-in-1 Car Seat",
+        "qty": 1,
+        "price_aed": 999.0
+      },
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 1,
+        "price_aed": 119.0
+      }
+    ],
+    "total_aed": 1118.0,
+    "payment_method": "apple_pay",
+    "address": "Jeddah, KSA",
+    "delivery_date": "2026-04-08",
+    "returnable_until": "2026-05-08"
+  },
+  "MW-11371": {
+    "order_id": "MW-11371",
+    "customer_name": "Hana Al Khatri",
+    "email": "hana.k@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-BED-002",
+        "name": "Stokke Sleepi Crib + Mattress",
+        "qty": 1,
+        "price_aed": 3299.0
+      }
+    ],
+    "total_aed": 3299.0,
+    "payment_method": "credit_card",
+    "address": "Dubai, UAE"
+  },
+  "MW-11373": {
+    "order_id": "MW-11373",
+    "customer_name": "Emma Williams",
+    "email": "emma.w@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-PHA-005",
+        "name": "Mama's Choice Vitamin D Drops",
+        "qty": 1,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-TOY-005",
+        "name": "Skip Hop Activity Gym",
+        "qty": 1,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-DIA-003",
+        "name": "Huggies Platinum Diapers Size 4 84pcs",
+        "qty": 1,
+        "price_aed": 95.0
+      },
+      {
+        "product_id": "P-CAR-006",
+        "name": "BabyBjörn Harmony Baby Carrier",
+        "qty": 1,
+        "price_aed": 699.0
+      }
+    ],
+    "total_aed": 1222.0,
+    "payment_method": "apple_pay",
+    "address": "Al Ain, UAE"
+  },
+  "MW-11379": {
+    "order_id": "MW-11379",
+    "customer_name": "Abeer Al Dossari",
+    "email": "abeer.d@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-HOM-003",
+        "name": "Diono Ultra Dry Seat Waterproof Liner",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-HOM-002",
+        "name": "Summer Infant Deluxe SuperSeat",
+        "qty": 1,
+        "price_aed": 299.0
+      },
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 1,
+        "price_aed": 65.0
+      }
+    ],
+    "total_aed": 513.0,
+    "payment_method": "tabby_installments",
+    "address": "Fujairah, UAE",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "EMP-130359-UAE",
+    "courier": "Emirates Post"
+  },
+  "MW-11382": {
+    "order_id": "MW-11382",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 79.0,
+    "payment_method": "tamara_installments",
+    "address": "Hawalli, Kuwait",
+    "delivery_date": "2026-02-05",
+    "returnable_until": "2026-03-07",
+    "return_window_expired": true
+  },
+  "MW-11384": {
+    "order_id": "MW-11384",
+    "customer_name": "Fatima Al Khalifa",
+    "email": "fatima.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-TOY-007",
+        "name": "Infantino Flip 4-in-1 Carrier + Gym",
+        "qty": 2,
+        "price_aed": 249.0
+      }
+    ],
+    "total_aed": 498.0,
+    "payment_method": "apple_pay",
+    "address": "Mecca, KSA",
+    "delivery_date": "2026-04-21",
+    "returnable_until": "2026-05-21"
+  },
+  "MW-11385": {
+    "order_id": "MW-11385",
+    "customer_name": "Farah Al Enezi",
+    "email": "farah.e@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-002",
+        "name": "Carter's 5-Pack Bodysuits (6M)",
+        "qty": 1,
+        "price_aed": 139.0
+      }
+    ],
+    "total_aed": 139.0,
+    "payment_method": "apple_pay",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-04-13",
+    "returnable_until": "2026-05-13"
+  },
+  "MW-11393": {
+    "order_id": "MW-11393",
+    "customer_name": "Rana Al Qahtani",
+    "email": "rana.q@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-TOY-004",
+        "name": "Hape Pound & Tap Bench",
+        "qty": 2,
+        "price_aed": 129.0
+      }
+    ],
+    "total_aed": 258.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Riyadh, KSA",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "NQL-403507-KSA",
+    "courier": "Naqel Express"
+  },
+  "MW-11399": {
+    "order_id": "MW-11399",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-001",
+        "name": "Mamas & Papas Sleepsuit 3-Pack (0–3M)",
+        "qty": 2,
+        "price_aed": 125.0
+      },
+      {
+        "product_id": "P-MUM-003",
+        "name": "Carriwell Seamless Drop-Cup Nursing Bra",
+        "qty": 2,
+        "price_aed": 159.0
+      }
+    ],
+    "total_aed": 568.0,
+    "payment_method": "apple_pay",
+    "address": "Al Ain, UAE",
+    "delivery_date": "2026-03-08",
+    "returnable_until": "2026-04-07",
+    "return_window_expired": true
+  },
+  "MW-11400": {
+    "order_id": "MW-11400",
+    "customer_name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-BAT-001",
+        "name": "Stokke Flexi Bath Foldable Tub",
+        "qty": 1,
+        "price_aed": 219.0
+      },
+      {
+        "product_id": "P-TOY-003",
+        "name": "VTech Sit-to-Stand Learning Walker",
+        "qty": 1,
+        "price_aed": 289.0
+      }
+    ],
+    "total_aed": 508.0,
+    "payment_method": "tamara_installments",
+    "address": "Dubai, UAE",
+    "estimated_delivery": "2026-04-30",
+    "tracking_number": "EMP-940247-UAE",
+    "courier": "Emirates Post"
+  },
+  "MW-11408": {
+    "order_id": "MW-11408",
+    "customer_name": "Mariam Al Thani",
+    "email": "mariam.t@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CLO-004",
+        "name": "H&M Baby Cotton Set (top+pants)",
+        "qty": 1,
+        "price_aed": 89.0
+      },
+      {
+        "product_id": "P-CAR-003",
+        "name": "Cybex Cloud G i-Size Car Seat",
+        "qty": 1,
+        "price_aed": 1850.0
+      }
+    ],
+    "total_aed": 1939.0,
+    "payment_method": "apple_pay",
+    "address": "Manama, Bahrain",
+    "delivery_date": "2026-03-30",
+    "returnable_until": "2026-04-29"
+  },
+  "MW-11411": {
+    "order_id": "MW-11411",
+    "customer_name": "Hana Al Khatri",
+    "email": "hana.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 1,
+        "price_aed": 65.0
+      },
+      {
+        "product_id": "P-BED-004",
+        "name": "IKEA SNIGLAR Crib",
+        "qty": 1,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 364.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Riyadh, KSA",
+    "delivery_date": "2026-04-05",
+    "returnable_until": "2026-05-05"
+  },
+  "MW-11413": {
+    "order_id": "MW-11413",
+    "customer_name": "Hessa Al Blooshi",
+    "email": "hessa.b@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-PHA-001",
+        "name": "Calpol Infant Suspension 100ml",
+        "qty": 1,
+        "price_aed": 25.0
+      },
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 1,
+        "price_aed": 65.0
+      }
+    ],
+    "total_aed": 90.0,
+    "payment_method": "google_pay",
+    "address": "Salalah, Oman"
+  },
+  "MW-11416": {
+    "order_id": "MW-11416",
+    "customer_name": "Jennifer Lee",
+    "email": "jennifer.l@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CAR-002",
+        "name": "Joie i-Spin 360 Car Seat",
+        "qty": 1,
+        "price_aed": 1299.0
+      }
+    ],
+    "total_aed": 1299.0,
+    "payment_method": "tabby_installments",
+    "address": "Ajman, UAE",
+    "estimated_delivery": "2026-04-29",
+    "tracking_number": "FTR-159653-UAE",
+    "courier": "Fetchr"
+  },
+  "MW-11422": {
+    "order_id": "MW-11422",
+    "customer_name": "Afra Al Shamsi",
+    "email": "afra.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      },
+      {
+        "product_id": "P-STR-006",
+        "name": "Chicco Urban Plus Stroller",
+        "qty": 2,
+        "price_aed": 1199.0
+      }
+    ],
+    "total_aed": 2467.0,
+    "payment_method": "credit_card",
+    "address": "Fujairah, UAE",
+    "delivery_date": "2026-03-17",
+    "returnable_until": "2026-04-16",
+    "return_window_expired": true
+  },
+  "MW-11425": {
+    "order_id": "MW-11425",
+    "customer_name": "Layla Qasim",
+    "email": "layla.q@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-004",
+        "name": "Bioderma ABCDerm Cleansing Gel 200ml",
+        "qty": 3,
+        "price_aed": 55.0
+      }
+    ],
+    "total_aed": 165.0,
+    "payment_method": "credit_card",
+    "address": "Dammam, KSA",
+    "delivery_date": "2026-03-12",
+    "returnable_until": "2026-04-11",
+    "return_window_expired": true
+  },
+  "MW-11430": {
+    "order_id": "MW-11430",
+    "customer_name": "Latifa Al Kaabi",
+    "email": "latifa.k@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CAR-005",
+        "name": "Graco 4Ever DLX 4-in-1 Car Seat",
+        "qty": 1,
+        "price_aed": 999.0
+      }
+    ],
+    "total_aed": 999.0,
+    "payment_method": "credit_card",
+    "address": "Sharjah, UAE",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "FTR-364236-UAE",
+    "courier": "Fetchr"
+  },
+  "MW-11433": {
+    "order_id": "MW-11433",
+    "customer_name": "Lujain Al Rashidi",
+    "email": "lujain.r@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 1,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-OUT-002",
+        "name": "Ergobaby Metro+ Compact Stroller",
+        "qty": 1,
+        "price_aed": 1549.0
+      }
+    ],
+    "total_aed": 1628.0,
+    "payment_method": "credit_card",
+    "address": "Al Ain, UAE",
+    "delivery_date": "2026-03-19",
+    "returnable_until": "2026-04-18",
+    "return_window_expired": true
+  },
+  "MW-11439": {
+    "order_id": "MW-11439",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-DIA-004",
+        "name": "Mamypoko Pants Size M 62pcs",
+        "qty": 1,
+        "price_aed": 79.0
+      }
+    ],
+    "total_aed": 79.0,
+    "payment_method": "credit_card",
+    "address": "Khobar, KSA",
+    "delivery_date": "2026-03-15",
+    "returnable_until": "2026-04-14",
+    "return_window_expired": true
+  },
+  "MW-11447": {
+    "order_id": "MW-11447",
+    "customer_name": "Alia Al Marri",
+    "email": "alia.m@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-MUM-001",
+        "name": "Belabumbum Maternity Nightgown",
+        "qty": 2,
+        "price_aed": 249.0
+      }
+    ],
+    "total_aed": 498.0,
+    "payment_method": "credit_card",
+    "address": "Abu Dhabi, UAE",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "ARA-794083-UAE",
+    "courier": "Aramex"
+  },
+  "MW-11453": {
+    "order_id": "MW-11453",
+    "customer_name": "Asma Al Busaidi",
+    "email": "asma.b@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-HOM-003",
+        "name": "Diono Ultra Dry Seat Waterproof Liner",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-BED-007",
+        "name": "Aerosleep Evolution Pack (mattress+cover)",
+        "qty": 1,
+        "price_aed": 899.0
+      }
+    ],
+    "total_aed": 1048.0,
+    "payment_method": "apple_pay",
+    "address": "Khobar, KSA",
+    "delivery_date": "2026-01-31",
+    "returnable_until": "2026-03-02",
+    "return_window_expired": true
+  },
+  "MW-11461": {
+    "order_id": "MW-11461",
+    "customer_name": "Sama Al Shehri",
+    "email": "sama.sh@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 3,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-FED-002",
+        "name": "Dr. Brown's Natural Flow Bottle Set 4-pack",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-DIA-005",
+        "name": "WaterWipes Fragrance-Free Baby Wipes 9-pack",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-PHA-002",
+        "name": "Nelsons Teetha Granules 24 sachets",
+        "qty": 1,
+        "price_aed": 49.0
+      }
+    ],
+    "total_aed": 4244.0,
+    "payment_method": "google_pay",
+    "address": "Al Ain, UAE",
+    "delivery_date": "2026-04-07",
+    "returnable_until": "2026-04-21",
+    "return_window_expired": true
+  },
+  "MW-11464": {
+    "order_id": "MW-11464",
+    "customer_name": "Mouza Al Hameli",
+    "email": "mouza.h@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BED-001",
+        "name": "Chicco Next2Me Magic Bedside Crib",
+        "qty": 2,
+        "price_aed": 1499.0
+      },
+      {
+        "product_id": "P-TOY-002",
+        "name": "LEGO DUPLO Classic Brick Box 85pcs",
+        "qty": 1,
+        "price_aed": 199.0
+      },
+      {
+        "product_id": "P-CAR-003",
+        "name": "Cybex Cloud G i-Size Car Seat",
+        "qty": 2,
+        "price_aed": 1850.0
+      }
+    ],
+    "total_aed": 6897.0,
+    "payment_method": "tamara_installments",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-03-03",
+    "returnable_until": "2026-04-02",
+    "return_window_expired": true
+  },
+  "MW-11468": {
+    "order_id": "MW-11468",
+    "customer_name": "Jennifer Lee",
+    "email": "jennifer.l@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CAR-003",
+        "name": "Cybex Cloud G i-Size Car Seat",
+        "qty": 1,
+        "price_aed": 1850.0
+      }
+    ],
+    "total_aed": 1850.0,
+    "payment_method": "apple_pay",
+    "address": "Doha, Qatar",
+    "delivery_date": "2026-03-18",
+    "returnable_until": "2026-04-17",
+    "return_window_expired": true
+  },
+  "MW-11474": {
+    "order_id": "MW-11474",
+    "customer_name": "Samira Al Wahaibi",
+    "email": "samira.w@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-BAT-005",
+        "name": "Safety 1st Tub",
+        "qty": 1,
+        "price_aed": 99.0
+      },
+      {
+        "product_id": "P-HOM-002",
+        "name": "Summer Infant Deluxe SuperSeat",
+        "qty": 1,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 1697.0,
+    "payment_method": "tabby_installments",
+    "address": "Dubai, UAE",
+    "delivery_date": "2026-02-16",
+    "returnable_until": "2026-03-18",
+    "return_window_expired": true
+  },
+  "MW-11481": {
+    "order_id": "MW-11481",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-HOM-003",
+        "name": "Diono Ultra Dry Seat Waterproof Liner",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-BAT-006",
+        "name": "Chicco Baby Hug Bath & Relax",
+        "qty": 2,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 447.0,
+    "payment_method": "tabby_installments",
+    "address": "Kuwait City, Kuwait",
+    "delivery_date": "2026-02-10",
+    "returnable_until": "2026-03-12",
+    "return_window_expired": true
+  },
+  "MW-11485": {
+    "order_id": "MW-11485",
+    "customer_name": "Hamda Al Kuwari",
+    "email": "hamda.k@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-CAR-003",
+        "name": "Cybex Cloud G i-Size Car Seat",
+        "qty": 3,
+        "price_aed": 1850.0
+      },
+      {
+        "product_id": "P-CLO-004",
+        "name": "H&M Baby Cotton Set (top+pants)",
+        "qty": 1,
+        "price_aed": 89.0
+      }
+    ],
+    "total_aed": 5639.0,
+    "payment_method": "credit_card",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-03-09",
+    "returnable_until": "2026-04-08",
+    "return_window_expired": true
+  },
+  "MW-11486": {
+    "order_id": "MW-11486",
+    "customer_name": "Dalal Al Mutairi",
+    "email": "dalal.m@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-FED-008",
+        "name": "NAN Supreme Stage 1 900g",
+        "qty": 1,
+        "price_aed": 175.0
+      }
+    ],
+    "total_aed": 175.0,
+    "payment_method": "tabby_installments",
+    "address": "Sharjah, UAE",
+    "delivery_date": "2026-02-12"
+  },
+  "MW-11492": {
+    "order_id": "MW-11492",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-001",
+        "name": "Motorola VM65 Baby Monitor",
+        "qty": 1,
+        "price_aed": 549.0
+      },
+      {
+        "product_id": "P-SAF-003",
+        "name": "Safety 1st Extra Tall Walk-Thru Gate",
+        "qty": 1,
+        "price_aed": 299.0
+      },
+      {
+        "product_id": "P-BOK-001",
+        "name": "The Very Hungry Caterpillar (Board Book)",
+        "qty": 1,
+        "price_aed": 35.0
+      }
+    ],
+    "total_aed": 883.0,
+    "payment_method": "tamara_installments",
+    "address": "Ras Al Khaimah, UAE",
+    "delivery_date": "2026-04-23",
+    "returnable_until": "2026-05-23"
+  },
+  "MW-11493": {
+    "order_id": "MW-11493",
+    "customer_name": "Samira Al Wahaibi",
+    "email": "samira.w@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-001",
+        "name": "Belabumbum Maternity Nightgown",
+        "qty": 2,
+        "price_aed": 249.0
+      },
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-FED-010",
+        "name": "Chicco Polly 2-in-1 Highchair",
+        "qty": 1,
+        "price_aed": 549.0
+      },
+      {
+        "product_id": "P-STR-005",
+        "name": "Joie Versatrax Stroller",
+        "qty": 2,
+        "price_aed": 1399.0
+      }
+    ],
+    "total_aed": 5144.0,
+    "payment_method": "tamara_installments",
+    "address": "Dubai, UAE",
+    "delivery_date": "2026-03-24",
+    "returnable_until": "2026-04-23",
+    "return_window_expired": true
+  },
+  "MW-11499": {
+    "order_id": "MW-11499",
+    "customer_name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-005",
+        "name": "Braun ThermoScan 7 Ear Thermometer",
+        "qty": 2,
+        "price_aed": 279.0
+      },
+      {
+        "product_id": "P-DIA-005",
+        "name": "WaterWipes Fragrance-Free Baby Wipes 9-pack",
+        "qty": 1,
+        "price_aed": 149.0
+      },
+      {
+        "product_id": "P-CLO-003",
+        "name": "Purebaby Organic Onesie 6-Pack",
+        "qty": 1,
+        "price_aed": 215.0
+      },
+      {
+        "product_id": "P-FED-012",
+        "name": "Munchkin LATCH Bottle Warmer",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 1071.0,
+    "payment_method": "google_pay",
+    "address": "Lusail, Qatar",
+    "delivery_date": "2026-02-17",
+    "returnable_until": "2026-03-19",
+    "return_window_expired": true
+  },
+  "MW-11501": {
+    "order_id": "MW-11501",
+    "customer_name": "Maryam Saleh",
+    "email": "maryam.s@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-BAT-004",
+        "name": "Bioderma ABCDerm Cleansing Gel 200ml",
+        "qty": 1,
+        "price_aed": 55.0
+      }
+    ],
+    "total_aed": 55.0,
+    "payment_method": "tabby_installments",
+    "address": "Sharjah, UAE"
+  },
+  "MW-11507": {
+    "order_id": "MW-11507",
+    "customer_name": "Sama Al Shehri",
+    "email": "sama.sh@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-BED-006",
+        "name": "Tommee Tippee Sleeptime Lite Night Light",
+        "qty": 3,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 447.0,
+    "payment_method": "credit_card",
+    "address": "Salalah, Oman",
+    "estimated_delivery": "2026-05-03",
+    "tracking_number": "OMN-811027-OMA",
+    "courier": "Oman Post"
+  },
+  "MW-11515": {
+    "order_id": "MW-11515",
+    "customer_name": "Nora Hassan",
+    "email": "nora.h@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "product_id": "P-BED-005",
+        "name": "aden+anais Organic Muslin Swaddle 4-Pack",
+        "qty": 1,
+        "price_aed": 189.0
+      }
+    ],
+    "total_aed": 189.0,
+    "payment_method": "tamara_installments",
+    "address": "Abu Dhabi, UAE",
+    "return_initiated": "2026-03-31",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-04"
+  },
+  "MW-11518": {
+    "order_id": "MW-11518",
+    "customer_name": "Rana Al Qahtani",
+    "email": "rana.q@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-005",
+        "name": "Braun ThermoScan 7 Ear Thermometer",
+        "qty": 1,
+        "price_aed": 279.0
+      },
+      {
+        "product_id": "P-CLO-003",
+        "name": "Purebaby Organic Onesie 6-Pack",
+        "qty": 1,
+        "price_aed": 215.0
+      }
+    ],
+    "total_aed": 494.0,
+    "payment_method": "tabby_installments",
+    "address": "Sharjah, UAE",
+    "delivery_date": "2026-03-25",
+    "returnable_until": "2026-04-24",
+    "return_window_expired": true
+  },
+  "MW-11522": {
+    "order_id": "MW-11522",
+    "customer_name": "Sama Al Shehri",
+    "email": "sama.sh@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-BAT-004",
+        "name": "Bioderma ABCDerm Cleansing Gel 200ml",
+        "qty": 2,
+        "price_aed": 55.0
+      },
+      {
+        "product_id": "P-CAR-004",
+        "name": "BeSafe iZi Go Modular i-Size",
+        "qty": 3,
+        "price_aed": 1499.0
+      }
+    ],
+    "total_aed": 4607.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Ajman, UAE",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "EMP-800280-UAE",
+    "courier": "Emirates Post"
+  },
+  "MW-11528": {
+    "order_id": "MW-11528",
+    "customer_name": "Hamda Al Kuwari",
+    "email": "hamda.k@example.com",
+    "status": "out_for_delivery",
+    "items": [
+      {
+        "product_id": "P-BOK-002",
+        "name": "Goodnight Moon (Board Book)",
+        "qty": 2,
+        "price_aed": 39.0
+      },
+      {
+        "product_id": "P-BED-008",
+        "name": "Gravity Baby Sleep Sack 0–6M",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 227.0,
+    "payment_method": "tabby_installments",
+    "address": "Ras Al Khaimah, UAE",
+    "estimated_delivery": "2026-04-28",
+    "tracking_number": "ARA-310743-UAE",
+    "courier": "Aramex"
+  },
+  "MW-11531": {
+    "order_id": "MW-11531",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 2,
+        "price_aed": 69.0
+      },
+      {
+        "product_id": "P-BED-002",
+        "name": "Stokke Sleepi Crib + Mattress",
+        "qty": 1,
+        "price_aed": 3299.0
+      },
+      {
+        "product_id": "P-HOM-002",
+        "name": "Summer Infant Deluxe SuperSeat",
+        "qty": 1,
+        "price_aed": 299.0
+      }
+    ],
+    "total_aed": 3736.0,
+    "payment_method": "tamara_installments",
+    "address": "Kuwait City, Kuwait",
+    "delivery_date": "2026-02-19",
+    "returnable_until": "2026-03-21",
+    "return_window_expired": true
+  },
+  "MW-11538": {
+    "order_id": "MW-11538",
+    "customer_name": "Dima Al Harbi",
+    "email": "dima.h@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-MUM-002",
+        "name": "Lansinoh Nipple Cream 40ml",
+        "qty": 1,
+        "price_aed": 69.0
+      }
+    ],
+    "total_aed": 69.0,
+    "payment_method": "credit_card",
+    "address": "Sharjah, UAE",
+    "estimated_delivery": "2026-04-30",
+    "tracking_number": "DHL-553633-UAE",
+    "courier": "DHL Express"
+  },
+  "MW-11539": {
+    "order_id": "MW-11539",
+    "customer_name": "Reem Al Falasi",
+    "email": "reem.f@example.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "product_id": "P-CLO-003",
+        "name": "Purebaby Organic Onesie 6-Pack",
+        "qty": 2,
+        "price_aed": 215.0
+      }
+    ],
+    "total_aed": 430.0,
+    "payment_method": "credit_card",
+    "address": "Dammam, KSA",
+    "cancelled_date": "2026-04-20",
+    "refund_status": "refund_processed",
+    "refund_date": "2026-04-25"
+  },
+  "MW-11544": {
+    "order_id": "MW-11544",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BED-005",
+        "name": "aden+anais Organic Muslin Swaddle 4-Pack",
+        "qty": 1,
+        "price_aed": 189.0
+      },
+      {
+        "product_id": "P-BED-007",
+        "name": "Aerosleep Evolution Pack (mattress+cover)",
+        "qty": 1,
+        "price_aed": 899.0
+      },
+      {
+        "product_id": "P-PAR-002",
+        "name": "Gender Reveal Confetti Cannon Set",
+        "qty": 2,
+        "price_aed": 79.0
+      },
+      {
+        "product_id": "P-HOM-003",
+        "name": "Diono Ultra Dry Seat Waterproof Liner",
+        "qty": 1,
+        "price_aed": 149.0
+      }
+    ],
+    "total_aed": 1395.0,
+    "payment_method": "credit_card",
+    "address": "Khobar, KSA",
+    "delivery_date": "2026-04-17",
+    "returnable_until": "2026-05-17",
+    "notes": "Possible safety concern flagged"
+  },
+  "MW-11548": {
+    "order_id": "MW-11548",
+    "customer_name": "Asma Al Busaidi",
+    "email": "asma.b@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-TOY-004",
+        "name": "Hape Pound & Tap Bench",
+        "qty": 1,
+        "price_aed": 129.0
+      }
+    ],
+    "total_aed": 129.0,
+    "payment_method": "credit_card",
+    "address": "Khobar, KSA",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "DHL-575575-KSA",
+    "courier": "DHL Express"
+  },
+  "MW-11550": {
+    "order_id": "MW-11550",
+    "customer_name": "Mariam Al Thani",
+    "email": "mariam.t@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 3,
+        "price_aed": 119.0
+      },
+      {
+        "product_id": "P-DIA-002",
+        "name": "Pampers Premium Care Diapers Size 3 120pcs",
+        "qty": 1,
+        "price_aed": 99.0
+      }
+    ],
+    "total_aed": 456.0,
+    "payment_method": "apple_pay",
+    "address": "Ajman, UAE",
+    "delivery_date": "2026-02-21",
+    "returnable_until": "2026-03-23",
+    "return_window_expired": true
+  },
+  "MW-11556": {
+    "order_id": "MW-11556",
+    "customer_name": "Khulood Al Dhaheri",
+    "email": "khulood.d@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-OUT-001",
+        "name": "Phil & Teds Explorer Inline Stroller",
+        "qty": 2,
+        "price_aed": 2199.0
+      }
+    ],
+    "total_aed": 4398.0,
+    "payment_method": "google_pay",
+    "address": "Dammam, KSA",
+    "delivery_date": "2026-03-27",
+    "returnable_until": "2026-04-26",
+    "return_window_expired": true
+  },
+  "MW-11559": {
+    "order_id": "MW-11559",
+    "customer_name": "Noura Al Mansoori",
+    "email": "noura.ma@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-SAF-005",
+        "name": "Braun ThermoScan 7 Ear Thermometer",
+        "qty": 1,
+        "price_aed": 279.0
+      },
+      {
+        "product_id": "P-TOY-005",
+        "name": "Skip Hop Activity Gym",
+        "qty": 1,
+        "price_aed": 349.0
+      }
+    ],
+    "total_aed": 628.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Riffa, Bahrain",
+    "delivery_date": "2026-02-22",
+    "returnable_until": "2026-03-24",
+    "return_window_expired": true
+  },
+  "MW-11563": {
+    "order_id": "MW-11563",
+    "customer_name": "Salama Al Neyadi",
+    "email": "salama.n@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-SAF-002",
+        "name": "Nanit Pro Smart Baby Monitor",
+        "qty": 1,
+        "price_aed": 1299.0
+      },
+      {
+        "product_id": "P-TOY-002",
+        "name": "LEGO DUPLO Classic Brick Box 85pcs",
+        "qty": 1,
+        "price_aed": 199.0
+      },
+      {
+        "product_id": "P-CLO-005",
+        "name": "Mothercare All Stars Socks 7-Pack",
+        "qty": 1,
+        "price_aed": 45.0
+      }
+    ],
+    "total_aed": 1543.0,
+    "payment_method": "credit_card",
+    "address": "Riyadh, KSA",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "ARA-900961-KSA",
+    "courier": "Aramex"
+  },
+  "MW-11570": {
+    "order_id": "MW-11570",
+    "customer_name": "Ohood Al Shamsi",
+    "email": "ohood.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BAT-005",
+        "name": "Safety 1st Tub",
+        "qty": 2,
+        "price_aed": 99.0
+      }
+    ],
+    "total_aed": 198.0,
+    "payment_method": "cash_on_delivery",
+    "address": "Dubai, UAE",
+    "delivery_date": "2026-02-07",
+    "returnable_until": "2026-03-09",
+    "return_window_expired": true
+  },
+  "MW-11572": {
+    "order_id": "MW-11572",
+    "customer_name": "Dana Al Suwaidi",
+    "email": "dana.s@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BED-004",
+        "name": "IKEA SNIGLAR Crib",
+        "qty": 1,
+        "price_aed": 299.0
+      },
+      {
+        "product_id": "P-FED-003",
+        "name": "Tommee Tippee Closer to Nature Bottle",
+        "qty": 1,
+        "price_aed": 69.0
+      },
+      {
+        "product_id": "P-HOM-001",
+        "name": "Storksak Alyssa Leather Changing Bag",
+        "qty": 1,
+        "price_aed": 895.0
+      },
+      {
+        "product_id": "P-CLO-002",
+        "name": "Carter's 5-Pack Bodysuits (6M)",
+        "qty": 1,
+        "price_aed": 139.0
+      }
+    ],
+    "total_aed": 1402.0,
+    "payment_method": "tamara_installments",
+    "address": "Salalah, Oman",
+    "delivery_date": "2026-02-20",
+    "returnable_until": "2026-03-22",
+    "return_window_expired": true
+  },
+  "MW-11575": {
+    "order_id": "MW-11575",
+    "customer_name": "Noura Al Mansoori",
+    "email": "noura.ma@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-PHA-004",
+        "name": "Gripe Water 150ml",
+        "qty": 2,
+        "price_aed": 35.0
+      },
+      {
+        "product_id": "P-DIA-001",
+        "name": "Pampers Premium Care Diapers NB 80pcs",
+        "qty": 1,
+        "price_aed": 89.0
+      },
+      {
+        "product_id": "P-CLO-001",
+        "name": "Mamas & Papas Sleepsuit 3-Pack (0–3M)",
+        "qty": 1,
+        "price_aed": 125.0
+      }
+    ],
+    "total_aed": 284.0,
+    "payment_method": "credit_card",
+    "address": "Riffa, Bahrain",
+    "estimated_delivery": "2026-05-02",
+    "tracking_number": "ARA-955374-BAH",
+    "courier": "Aramex"
+  },
+  "MW-11576": {
+    "order_id": "MW-11576",
+    "customer_name": "Ohood Al Shamsi",
+    "email": "ohood.s@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-BOK-001",
+        "name": "The Very Hungry Caterpillar (Board Book)",
+        "qty": 1,
+        "price_aed": 35.0
+      },
+      {
+        "product_id": "P-STR-004",
+        "name": "Silver Cross Wave 2 Stroller",
+        "qty": 1,
+        "price_aed": 3650.0
+      }
+    ],
+    "total_aed": 3685.0,
+    "payment_method": "apple_pay",
+    "address": "Dubai, UAE"
+  },
+  "MW-11577": {
+    "order_id": "MW-11577",
+    "customer_name": "Hana Al Zahrani",
+    "email": "hana.z@example.com",
+    "status": "in_transit",
+    "items": [
+      {
+        "product_id": "P-CAR-007",
+        "name": "Ergobaby Omni 360 Cool Air Carrier",
+        "qty": 1,
+        "price_aed": 549.0
+      }
+    ],
+    "total_aed": 549.0,
+    "payment_method": "apple_pay",
+    "address": "Khobar, KSA",
+    "estimated_delivery": "2026-05-01",
+    "tracking_number": "DHL-539122-KSA",
+    "courier": "DHL Express"
+  },
+  "MW-11580": {
+    "order_id": "MW-11580",
+    "customer_name": "Emma Williams",
+    "email": "emma.w@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-BED-003",
+        "name": "Maxi-Cosi Iora Bedside Crib",
+        "qty": 1,
+        "price_aed": 1099.0
+      }
+    ],
+    "total_aed": 1099.0,
+    "payment_method": "google_pay",
+    "address": "Mecca, KSA"
+  },
+  "MW-11588": {
+    "order_id": "MW-11588",
+    "customer_name": "Rana Al Qahtani",
+    "email": "rana.q@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "product_id": "P-BOK-003",
+        "name": "Arabic Alphabet Flash Cards",
+        "qty": 2,
+        "price_aed": 65.0
+      }
+    ],
+    "total_aed": 130.0,
+    "payment_method": "google_pay",
+    "address": "Abu Dhabi, UAE",
+    "delivery_date": "2026-02-08",
+    "returnable_until": "2026-03-10",
+    "return_window_expired": true
+  },
+  "MW-11592": {
+    "order_id": "MW-11592",
+    "customer_name": "Hind Al Mazrouei",
+    "email": "hind.m@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "product_id": "P-SAF-004",
+        "name": "BabyDan Multidan Safety Gate",
+        "qty": 1,
+        "price_aed": 349.0
+      },
+      {
+        "product_id": "P-TOY-006",
+        "name": "Melissa & Doug Deluxe Wooden A-Z Puzzle",
+        "qty": 1,
+        "price_aed": 119.0
+      }
+    ],
+    "total_aed": 468.0,
+    "payment_method": "tabby_installments",
+    "address": "Jeddah, KSA"
+  }
+}

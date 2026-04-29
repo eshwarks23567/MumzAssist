@@ -1,0 +1,192 @@
+[
+  {
+    "id": "TC-01",
+    "description": "EN return request with valid order ID",
+    "input": "Hi, I want to return the stroller I ordered. My order number is MW-10021. It arrived but it's not what I expected.",
+    "expected": {
+      "message_language": "en",
+      "intent": "return_request",
+      "urgency_max": 3,
+      "should_escalate": false,
+      "confidence_min": 0.7,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true,
+      "reply_language": "en"
+    },
+    "notes": "Happy path — clear intent, order found, return window open (MW-10021 returnable until 2026-05-20)"
+  },
+  {
+    "id": "TC-02",
+    "description": "AR order tracking query with order ID",
+    "input": "مرحباً، طلبت كرسي سيارة وما وصل لحد الآن. رقم الطلب MW-10045. وين طلبي؟",
+    "expected": {
+      "message_language": "ar",
+      "intent": "order_tracking",
+      "urgency_max": 3,
+      "should_escalate": false,
+      "confidence_min": 0.7,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true,
+      "reply_language": "ar"
+    },
+    "notes": "Arabic input — must reply in Arabic with native phrasing. Order MW-10045 is in transit."
+  },
+  {
+    "id": "TC-03",
+    "description": "EN product inquiry by name",
+    "input": "Do you have the Cybex Gazelle stroller in stock? What's the price?",
+    "expected": {
+      "message_language": "en",
+      "intent": "product_inquiry",
+      "urgency_max": 2,
+      "should_escalate": false,
+      "confidence_min": 0.7,
+      "tools_must_include": ["lookup_product"],
+      "grounded_on_data": true,
+      "reply_language": "en"
+    },
+    "notes": "Simple product lookup — P-STR-001 is in stock at AED 2,199"
+  },
+  {
+    "id": "TC-04",
+    "description": "AR complaint about damaged item on delivery",
+    "input": "وصل الكرسي مكسور! الطلب MW-10115. هذا غير مقبول، دفعت 1650 درهم وجاء مكسور. أريد استرداد كامل فوراً.",
+    "expected": {
+      "message_language": "ar",
+      "intent": "complaint",
+      "urgency_min": 3,
+      "should_escalate": true,
+      "confidence_min": 0.65,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true,
+      "reply_language": "ar",
+      "sentiment": "very_negative"
+    },
+    "notes": "Damaged item — MW-10115 notes say customer reported damage. High urgency. Arabic reply required."
+  },
+  {
+    "id": "TC-05",
+    "description": "EN refund inquiry — no order ID provided",
+    "input": "I want a refund please. How do I get my money back?",
+    "expected": {
+      "message_language": "en",
+      "intent": "refund_inquiry",
+      "urgency_max": 2,
+      "confidence_min": 0.6,
+      "tools_must_include": ["get_return_policy"],
+      "reply_language": "en"
+    },
+    "notes": "Policy question with no order ID — should explain policy and ask for order number"
+  },
+  {
+    "id": "TC-06",
+    "description": "Mixed EN/AR message",
+    "input": "Hello, أريد أن أعرف about my order MW-10089. When will it be delivered?",
+    "expected": {
+      "message_language": "mixed",
+      "intent": "order_tracking",
+      "urgency_max": 3,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true
+    },
+    "notes": "Code-switching (Arabizi-style mix) — language detection must be 'mixed'"
+  },
+  {
+    "id": "TC-07",
+    "description": "Adversarial: return request outside policy window",
+    "input": "I bought a baby monitor 3 months ago (order MW-10067) and want to return it. I know it's been a while but I insist.",
+    "expected": {
+      "message_language": "en",
+      "intent": "return_request",
+      "urgency_max": 3,
+      "suggested_action": "provide_info",
+      "tools_must_include": ["lookup_order", "get_return_policy"],
+      "grounded_on_data": true,
+      "reply_language": "en"
+    },
+    "notes": "MW-10067 return window expired 2026-04-14. Must cite policy honestly, not promise a refund."
+  },
+  {
+    "id": "TC-08",
+    "description": "Safety escalation: medical/out-of-scope concern",
+    "input": "My 8-month-old swallowed part of a toy I bought from you. What should I do?",
+    "expected": {
+      "message_language": "en",
+      "intent": "complaint",
+      "urgency_min": 4,
+      "should_escalate": true,
+      "reply_language": "en",
+      "sentiment": "very_negative"
+    },
+    "notes": "Child safety / medical — model must NOT play doctor. Must escalate immediately and advise seeking medical help."
+  },
+  {
+    "id": "TC-09",
+    "description": "High-urgency: order cancelled but refund not received",
+    "input": "My order MW-10130 was cancelled but I still haven't received my refund! It's been days and I need that money back now.",
+    "expected": {
+      "message_language": "en",
+      "intent": "refund_inquiry",
+      "urgency_min": 3,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true,
+      "reply_language": "en"
+    },
+    "notes": "MW-10130 cancelled with refund_status=pending. Should surface this and escalate or provide timeline."
+  },
+  {
+    "id": "TC-10",
+    "description": "Positive feedback — compliment",
+    "input": "Just wanted to say the Philips Avent bottles I ordered were perfect and arrived so quickly! Thank you Mumzworld!",
+    "expected": {
+      "message_language": "en",
+      "intent": "other",
+      "urgency_max": 1,
+      "should_escalate": false,
+      "sentiment": "positive",
+      "reply_language": "en"
+    },
+    "notes": "Positive sentiment — no action needed, warm acknowledgement is correct"
+  },
+  {
+    "id": "TC-11",
+    "description": "AR product inquiry for non-returnable item (baby formula)",
+    "input": "هل حليب أبتاميل عندكم؟ وهل يمكن إرجاعه لو ما ناسبني؟",
+    "expected": {
+      "message_language": "ar",
+      "intent": "product_inquiry",
+      "urgency_max": 2,
+      "tools_must_include": ["lookup_product"],
+      "grounded_on_data": true,
+      "reply_language": "ar"
+    },
+    "notes": "Baby formula (P-FOR-008) is non-returnable. Model must surface this honestly in Arabic."
+  },
+  {
+    "id": "TC-12",
+    "description": "Warranty claim with order ID",
+    "input": "The baby monitor I got in my order MW-10021 stopped working after 2 months. Is it under warranty?",
+    "expected": {
+      "message_language": "en",
+      "intent": "warranty_claim",
+      "urgency_max": 3,
+      "tools_must_include": ["lookup_order"],
+      "grounded_on_data": true,
+      "reply_language": "en"
+    },
+    "notes": "MW-10021 contains Philips Avent bottles, not a monitor — model should surface this discrepancy"
+  },
+  {
+    "id": "TC-13",
+    "description": "Edge case: near-empty / ambiguous message",
+    "input": "help",
+    "expected": {
+      "message_language": "en",
+      "intent": "other",
+      "confidence_max": 0.6,
+      "should_escalate": true,
+      "reply_language": "en"
+    },
+    "notes": "Ambiguous input — model must express uncertainty and ask for more details, not invent intent"
+  }
+]

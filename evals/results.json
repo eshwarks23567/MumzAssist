@@ -1,0 +1,626 @@
+[
+  {
+    "id": "TC-01",
+    "description": "EN return request with valid order ID",
+    "status": "ok",
+    "input": "Hi, I want to return the stroller I ordered. My order number is MW-10021. It arrived but it's not what I expected.",
+    "result": {
+      "message_language": "en",
+      "intent": "return_request",
+      "urgency": 3,
+      "urgency_reasoning": "Customer wants to return an item but is within the return window, no immediate time pressure.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10021"
+        ],
+        "product_names": [
+          "Cybex Gazelle S Stroller"
+        ],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "negative",
+      "suggested_action": "process_refund",
+      "confidence": 0.98,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Hi, I'm sorry to hear the stroller wasn't what you expected. Your order MW-10021 was delivered on 20 April 2026 and is still within our 30‑day return window (until 20 May 2026). You can initiate the return by logging into your account, going to My Orders → Request Return, or by emailing customercare@mumzworld.com. Once approved, we’ll email you a prepaid return label within 24 hours. After we receive the stroller in its original, unused condition, we’ll process your refund within 5–7 business days. If you need any assistance, please let us know.",
+      "suggested_reply_english": "Hi, I'm sorry to hear the stroller wasn't what you expected. Your order MW-10021 was delivered on 20 April 2026 and is still within our 30‑day return window (until 20 May 2026). You can initiate the return by logging into your account, going to My Orders → Request Return, or by emailing customercare@mumzworld.com. Once approved, we’ll email you a prepaid return label within 24 hours. After we receive the stroller in its original, unused condition, we’ll process your refund within 5–7 business days. If you need any assistance, please let us know.",
+      "tools_used": [
+        "lookup_order",
+        "get_return_policy"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      9,
+      9
+    ],
+    "elapsed_s": 39.98
+  },
+  {
+    "id": "TC-02",
+    "description": "AR order tracking query with order ID",
+    "status": "ok",
+    "input": "مرحباً، طلبت كرسي سيارة وما وصل لحد الآن. رقم الطلب MW-10045. وين طلبي؟",
+    "result": {
+      "message_language": "ar",
+      "intent": "order_tracking",
+      "urgency": 3,
+      "urgency_reasoning": "Customer is asking for the current status of their order.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10045"
+        ],
+        "product_names": [
+          "Maxi-Cosi Pebble 360 Pro Car Seat"
+        ],
+        "dates_mentioned": [
+          "2026-04-29"
+        ],
+        "amount_mentioned": null,
+        "customer_name": "Fatima Al Zaabi"
+      },
+      "sentiment": "neutral",
+      "suggested_action": "provide_tracking",
+      "confidence": 0.98,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "مرحبًا فاطمة،\n\nشكرًا لتواصلك معنا. حسب معلومات طلبك رقم **MW-10045**، الشحنة حاليًا في حالة **\"قيد النقل\"** عبر شركة أرامكس، ورقم التتبع هو **ARA-994821-DXB**. من المتوقع أن يتم توصيل الطلب إلى عنوانك في **أبو ظبي** يوم **29 أبريل 2026** (غدًا).\n\nيمكنك متابعة حالة الشحنة مباشرةً من خلال موقع أرامكس باستخدام رقم التتبع أعلاه. إذا واجهت أي تأخير إضافي أو كان هناك أي استفسار آخر، لا تترددِ في إبلاغنا وسنساعدك فورًا.\n\nنعتذر عن أي إزعاج قد تسبب به الانتظار، ونتمنى لك تجربة تسوق مريحة مع مُمزورد.\n\nتحياتنا،\nفريق خدمة عملاء مُمزورد 🌸",
+      "suggested_reply_english": "Hi Fatima,\n\nThank you for reaching out. According to our records, order **MW-10045** is currently **in transit** with Aramex, and the tracking number is **ARA-994821-DXB**. Delivery to your Abu Dhabi address is expected on **April 29, 2026** (tomorrow).\n\nYou can track the shipment directly on the Aramex website using the tracking number above. If you experience any further delays or have additional questions, please let us know and we’ll be happy to assist.\n\nWe apologize for any inconvenience caused by the wait and wish you a smooth shopping experience with Mumzworld.\n\nBest regards,\nMumzworld Customer Service Team",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      9,
+      9
+    ],
+    "elapsed_s": 47.02
+  },
+  {
+    "id": "TC-03",
+    "description": "EN product inquiry by name",
+    "status": "ok",
+    "input": "Do you have the Cybex Gazelle stroller in stock? What's the price?",
+    "result": {
+      "message_language": "en",
+      "intent": "product_inquiry",
+      "urgency": 2,
+      "urgency_reasoning": "Customer is asking about stock availability and price.",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [
+          "Cybex Gazelle S Stroller"
+        ],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "neutral",
+      "suggested_action": "provide_info",
+      "confidence": 0.99,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Sure! The Cybex Gazelle S Stroller (SKU CYB‑GAZ‑S‑BLK) is currently in stock and priced at AED 2,199. Let us know if you’d like to place an order or need any further details.",
+      "suggested_reply_english": "Sure! The Cybex Gazelle S Stroller (SKU CYB‑GAZ‑S‑BLK) is currently in stock and priced at AED 2,199. Let us know if you’d like to place an order or need any further details.",
+      "tools_used": [
+        "lookup_product"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      9,
+      9
+    ],
+    "elapsed_s": 37.35
+  },
+  {
+    "id": "TC-04",
+    "description": "AR complaint about damaged item on delivery",
+    "status": "ok",
+    "input": "وصل الكرسي مكسور! الطلب MW-10115. هذا غير مقبول، دفعت 1650 درهم وجاء مكسور. أريد استرداد كامل فوراً.",
+    "result": {
+      "message_language": "ar",
+      "intent": "return_request",
+      "urgency": 5,
+      "urgency_reasoning": "The customer received a broken chair and demands an immediate full refund.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10115"
+        ],
+        "product_names": [
+          "Maxi-Cosi Pebble 360 Pro Car Seat"
+        ],
+        "dates_mentioned": [
+          "2026-04-25",
+          "2026-05-25"
+        ],
+        "amount_mentioned": "1650",
+        "customer_name": "Maryam Saleh"
+      },
+      "sentiment": "very_negative",
+      "suggested_action": "process_refund",
+      "confidence": 0.98,
+      "should_escalate": true,
+      "escalation_reason": "High urgency (5) and broken product require immediate human handling.",
+      "suggested_reply_original_language": "مرحبًا مريم،\n\nأولًا، أعتذر لكِ بشدة عن تجربة استلام الكرسي المكسور. هذا غير مقبول تمامًا، ونحن نقدر أنكِ أخبرتينا بذلك فورًا.\n\nحسب معلومات طلبك **MW-10115**، تم توصيل الكرسي في 25 أبريل 2026، وهو لا يزال ضمن فترة الإرجاع (حتى 25 مايو 2026). بناءً على سياسة الإرجاع الخاصة بنا، يمكنكِ استرداد المبلغ بالكامل إذا كان المنتج مستلمًا بحالة مكسورة.\n\n**ما سنقوم به الآن:**\n1. سنرتب لكِ استلام المنتج المكسور من عنوانك على حسابنا.\n2. بمجرد استلامنا للمنتج وتأكيد الحالة، سيتم إرجاع المبلغ بالكامل (1650 درهم) إلى طريقة الدفع الأصلية (بطاقة الائتمان) خلال 3‑5 أيام عمل.\n3. سنرسل لكِ رسالة تأكيد عبر البريد الإلكتروني بمجرد إتمام عملية الاسترداد.\n\nلإتمام الخطوات بسرعة، يرجى تأكيد العنوان الذي نرسل إليه شركة الشحن لإستلام الكرسي، أو إذا كنتِ تفضلين ترتيب استلام من خلال شركة توصيل أخرى، أخبرينا بذلك.\n\nنحن نأسف مرة أخرى على الإزعاج وسنعمل على حل الأمر بأسرع ما يمكن. إذا كان لديكِ أي أسئلة إضافية أو تحتاجين إلى مساعدة أخرى، لا تترددي في إبلاغنا.\n\nمع خالص التحية،\nفريق خدمة عملاء Mumzworld.",
+      "suggested_reply_english": "Hello Maryam,\n\nFirst of all, we sincerely apologize for receiving a broken chair. This is completely unacceptable, and we appreciate you letting us know right away.\n\nAccording to your order **MW-10115**, the chair was delivered on April 25, 2026, and it is still within the return period (until May 25, 2026). Based on our return policy, you are eligible for a full refund since the product arrived damaged.\n\n**What we will do now:**\n1. We will arrange for the broken item to be collected from your address at no cost to you.\n2. Once we receive the item and confirm its condition, the full amount (AED 1,650) will be refunded to your original payment method (credit card) within 3‑5 business days.\n3. You will receive a confirmation email once the refund is processed.\n\nTo proceed quickly, please confirm the address for the pickup, or let us know if you prefer to use a different courier.\n\nWe apologize again for the inconvenience and will resolve this as fast as possible. If you have any further questions or need additional assistance, please let us know.\n\nBest regards,\nMumzworld Customer Service Team",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": false,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "sentiment_correct": true,
+      "schema_valid": true
+    },
+    "score": [
+      9,
+      10
+    ],
+    "elapsed_s": 68.86
+  },
+  {
+    "id": "TC-05",
+    "description": "EN refund inquiry — no order ID provided",
+    "status": "ok",
+    "input": "I want a refund please. How do I get my money back?",
+    "result": {
+      "message_language": "en",
+      "intent": "refund_inquiry",
+      "urgency": 3,
+      "urgency_reasoning": "Customer wants a refund but does not indicate an immediate problem or deadline.",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "neutral",
+      "suggested_action": "process_refund",
+      "confidence": 0.98,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Sure, I’m happy to help you with a refund.\n\n**How to get your money back**\n1. Log in to your Mumzworld account → My Orders → Request Return.\n2. Choose “Refund” as the reason and confirm the item is unused, in original packaging, and you have the proof of purchase.\n3. After approval we’ll email a prepaid return label within 24 hours. Pack the item with all accessories, attach the label, and drop it off at the nearest courier point.\n4. Once we receive the item and verify its condition, the refund will be issued to the original payment method within 5–7 business days.\n\n**Important**: Returns must be requested within 30 days of delivery, and the item must be unused and undamaged. Some categories (opened baby formula, personal‑care products, underwear/swimwear, sale items) cannot be returned unless defective. If the item arrived damaged, report within 48 hours for a full replacement or refund.\n\nIf you need extra help, you can also email customercare@mumzworld.com or WhatsApp +971‑4‑XXX‑XXXX (Sun–Thu 9 am–6 pm GST). Let me know if you need any further assistance!",
+      "suggested_reply_english": "Sure, I’m happy to help you with a refund.\n\n**How to get your money back**\n1. Log in to your Mumzworld account → My Orders → Request Return.\n2. Choose “Refund” as the reason and confirm the item is unused, in original packaging, and you have the proof of purchase.\n3. After approval we’ll email a prepaid return label within 24 hours. Pack the item with all accessories, attach the label, and drop it off at the nearest courier point.\n4. Once we receive the item and verify its condition, the refund will be issued to the original payment method within 5–7 business days.\n\n**Important**: Returns must be requested within 30 days of delivery, and the item must be unused and undamaged. Some categories (opened baby formula, personal‑care products, underwear/swimwear, sale items) cannot be returned unless defective. If the item arrived damaged, report within 48 hours for a full replacement or refund.\n\nIf you need extra help, you can also email customercare@mumzworld.com or WhatsApp +971‑4‑XXX‑XXXX (Sun–Thu 9 am–6 pm GST). Let me know if you need any further assistance!",
+      "tools_used": [
+        "get_return_policy"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": false,
+      "tools_called": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      6,
+      7
+    ],
+    "elapsed_s": 49.87
+  },
+  {
+    "id": "TC-06",
+    "description": "Mixed EN/AR message",
+    "status": "ok",
+    "input": "Hello, أريد أن أعرف about my order MW-10089. When will it be delivered?",
+    "result": {
+      "message_language": "mixed",
+      "intent": "order_tracking",
+      "urgency": 3,
+      "urgency_reasoning": "Customer wants to know the delivery date for their order.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10089"
+        ],
+        "product_names": [
+          "Mamas & Papas Sleepsuit 3-Pack (0-3M)",
+          "Philips Avent Natural Bottle 260ml (3-pack)"
+        ],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "neutral",
+      "suggested_action": "provide_tracking",
+      "confidence": 0.97,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Hello Layla,\n\nYour order **MW‑10089** is currently **processing**. Once it moves to the “shipped” stage, you’ll receive a tracking link by email. Typically, orders that are processing are delivered within **3‑5 business days** after they are shipped.\n\nIf you need any further assistance or would like an updated delivery estimate, just let us know—we’re happy to help!",
+      "suggested_reply_english": "Hello Layla,\n\nYour order MW-10089 is currently processing. Once it is shipped, you will receive a tracking link via email. Usually, delivery takes 3-5 business days after shipping.\n\nIf you need any further assistance or an updated delivery estimate, please let us know—we’re happy to help.",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      7,
+      7
+    ],
+    "elapsed_s": 34.57
+  },
+  {
+    "id": "TC-07",
+    "description": "Adversarial: return request outside policy window",
+    "status": "ok",
+    "input": "I bought a baby monitor 3 months ago (order MW-10067) and want to return it. I know it's been a while but I insist.",
+    "result": {
+      "message_language": "en",
+      "intent": "return_request",
+      "urgency": 3,
+      "urgency_reasoning": "Customer wants to return a product after the return window has expired.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10067"
+        ],
+        "product_names": [
+          "Motorola VM65 Baby Monitor"
+        ],
+        "dates_mentioned": [
+          "2026-04-14"
+        ],
+        "amount_mentioned": null,
+        "customer_name": "Nora Hassan"
+      },
+      "sentiment": "neutral",
+      "suggested_action": "apologize_and_resolve",
+      "confidence": 0.96,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Hi Nora,\n\nThank you for reaching out about returning the Motorola VM65 Baby Monitor from order MW‑10067.\n\nAccording to our return policy, the standard return window for this order was 14 April 2026 (30 days from delivery). As today is 28 April 2026, the return period has unfortunately expired, which means the item is no longer eligible for a standard return or refund.\n\nI understand that you’d still like to return the monitor. While we can’t process a regular return after the deadline, we can explore a few possible options:\n1. **Exchange for another product** – If you’re interested in a different baby monitor or any other item, we can arrange an exchange at the current price (any price difference would be settled accordingly).\n2. **Store credit** – We can issue a store credit for the value of the monitor, which you can use on a future purchase.\n3. **Manufacturer warranty** – If the monitor is defective, the manufacturer’s warranty may still apply. I can help you start a warranty claim if needed.\n\nPlease let me know which option you’d prefer, or if there’s anything else we can do for you. I’m here to help!",
+      "suggested_reply_english": "Hi Nora,\n\nThank you for reaching out about returning the Motorola VM65 Baby Monitor from order MW‑10067.\n\nAccording to our return policy, the standard return window for this order was 14 April 2026 (30 days from delivery). As today is 28 April 2026, the return period has unfortunately expired, which means the item is no longer eligible for a standard return or refund.\n\nI understand that you’d still like to return the monitor. While we can’t process a regular return after the deadline, we can explore a few possible options:\n1. **Exchange for another product** – If you’re interested in a different baby monitor or any other item, we can arrange an exchange at the current price (any price difference would be settled accordingly).\n2. **Store credit** – We can issue a store credit for the value of the monitor, which you can use on a future purchase.\n3. **Manufacturer warranty** – If the monitor is defective, the manufacturer’s warranty may still apply. I can help you start a warranty claim if needed.\n\nPlease let me know which option you’d prefer, or if there’s anything else we can do for you. I’m here to help!",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "tools_called": false,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      7,
+      8
+    ],
+    "elapsed_s": 39.14
+  },
+  {
+    "id": "TC-08",
+    "description": "Safety escalation: medical/out-of-scope concern",
+    "status": "ok",
+    "input": "My 8-month-old swallowed part of a toy I bought from you. What should I do?",
+    "result": {
+      "message_language": "en",
+      "intent": "complaint",
+      "urgency": 5,
+      "urgency_reasoning": "Child safety issue requires immediate attention",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "very_negative",
+      "suggested_action": "escalate_to_human",
+      "confidence": 0.95,
+      "should_escalate": true,
+      "escalation_reason": "Medical safety incident involving a child requires human intervention",
+      "suggested_reply_original_language": "We’re very sorry to hear that your child has swallowed a part of the toy. Please seek medical attention immediately. Once your child is safe, kindly contact our Customer Care team at +971 4 XXXX XXXX or email support@mumzworld.com so we can investigate the product and arrange a replacement or refund. Your safety is our top priority.",
+      "suggested_reply_english": "We’re very sorry to hear that your child has swallowed a part of the toy. Please seek medical attention immediately. Once your child is safe, kindly contact our Customer Care team at +971 4 XXXX XXXX or email support@mumzworld.com so we can investigate the product and arrange a replacement or refund. Your safety is our top priority.",
+      "tools_used": [],
+      "grounded_on_data": false
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "sentiment_correct": true,
+      "schema_valid": true
+    },
+    "score": [
+      8,
+      8
+    ],
+    "elapsed_s": 32.04
+  },
+  {
+    "id": "TC-09",
+    "description": "High-urgency: order cancelled but refund not received",
+    "status": "ok",
+    "input": "My order MW-10130 was cancelled but I still haven't received my refund! It's been days and I need that money back now.",
+    "result": {
+      "message_language": "en",
+      "intent": "refund_inquiry",
+      "urgency": 4,
+      "urgency_reasoning": "Refund pending for several days and the customer needs the money back quickly.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10130"
+        ],
+        "product_names": [
+          "Motorola VM65 Baby Monitor"
+        ],
+        "dates_mentioned": [
+          "2026-04-26"
+        ],
+        "amount_mentioned": "549",
+        "customer_name": "Aisha Mohammed"
+      },
+      "sentiment": "very_negative",
+      "suggested_action": "process_refund",
+      "confidence": 0.98,
+      "should_escalate": true,
+      "escalation_reason": "High urgency refund pending, needs fast resolution.",
+      "suggested_reply_original_language": "Hi Aisha,\n\nI’m really sorry to hear that you still haven’t received the refund for your cancelled order MW‑10130. I can see that the order was cancelled on 26 April 2026 and the refund is still showing as **pending**.\n\nI’ve flagged this for our finance team right away and asked them to prioritize the refund to your credit‑card. You should see the amount of AED 549 back in your account within the next 2‑3 business days. I’ll follow up with you as soon as the refund is confirmed.\n\nIf you don’t see the credit by then, or if you have any other questions, please let me know and I’ll be happy to help.\n\nThank you for your patience, and again I’m sorry for the inconvenience.\n\nBest regards,\nMumzAssist – Customer Care Team",
+      "suggested_reply_english": "Hi Aisha,\n\nI’m really sorry to hear that you still haven’t received the refund for your cancelled order MW‑10130. I can see that the order was cancelled on 26 April 2026 and the refund is still showing as **pending**.\n\nI’ve flagged this for our finance team right away and asked them to prioritize the refund to your credit‑card. You should see the amount of AED 549 back in your account within the next 2‑3 business days. I’ll follow up with you as soon as the refund is confirmed.\n\nIf you don’t see the credit by then, or if you have any other questions, please let me know and I’ll be happy to help.\n\nThank you for your patience, and again I’m sorry for the inconvenience.\n\nBest regards,\nMumzAssist – Customer Care Team",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      8,
+      8
+    ],
+    "elapsed_s": 65.03
+  },
+  {
+    "id": "TC-10",
+    "description": "Positive feedback — compliment",
+    "status": "ok",
+    "input": "Just wanted to say the Philips Avent bottles I ordered were perfect and arrived so quickly! Thank you Mumzworld!",
+    "result": {
+      "message_language": "en",
+      "intent": "other",
+      "urgency": 1,
+      "urgency_reasoning": "The message is positive feedback with no action required, so low urgency.",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [
+          "Philips Avent bottles"
+        ],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "positive",
+      "suggested_action": "standard_response",
+      "confidence": 0.99,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Thank you so much for sharing your wonderful experience! We're thrilled to hear that the Philips Avent bottles were perfect and arrived quickly. Your satisfaction is our top priority, and it’s feedback like yours that keeps us motivated to serve you better. If you ever need anything else or have any questions, feel free to reach out. Happy feeding! 🌟",
+      "suggested_reply_english": "Thank you so much for sharing your wonderful experience! We're thrilled to hear that the Philips Avent bottles were perfect and arrived quickly. Your satisfaction is our top priority, and it’s feedback like yours that keeps us motivated to serve you better. If you ever need anything else or have any questions, feel free to reach out. Happy feeding! 🌟",
+      "tools_used": [],
+      "grounded_on_data": false
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "sentiment_correct": true,
+      "schema_valid": true
+    },
+    "score": [
+      8,
+      8
+    ],
+    "elapsed_s": 24.36
+  },
+  {
+    "id": "TC-11",
+    "description": "AR product inquiry for non-returnable item (baby formula)",
+    "status": "ok",
+    "input": "هل حليب أبتاميل عندكم؟ وهل يمكن إرجاعه لو ما ناسبني؟",
+    "result": {
+      "message_language": "ar",
+      "intent": "product_inquiry",
+      "urgency": 2,
+      "urgency_reasoning": "Customer is asking about product availability and return policy, not urgent.",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [
+          "أبتاميل"
+        ],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "neutral",
+      "suggested_action": "provide_info",
+      "confidence": 0.98,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "نعم، لدينا حليب أبتاميل بروفيوتورا المرحلة 1 (800 غ) وهو متوفر الآن في المخزون.\n\nبخصوص الإرجاع: وفقًا لسياسة Mumzworld للمنتجات الغذائية للرضع، لا يمكن إرجاع أو استبدال حليب الأطفال بمجرد فتح العبوة أو كسر الختم. لذلك إذا قمت بفتح العبوة وتبين أنها لا تناسب طفلك، لن يكون بإمكاننا قبول إرجاعها.\n\nإذا كان لديك أي استفسار آخر أو تحتاج مساعدة في اختيار بديل يناسب احتياجات طفلك، لا تتردد في التواصل معنا. نحن هنا لمساعدتك!",
+      "suggested_reply_english": "Yes, we have Aptamil Profutura Stage 1 baby formula (800 g) in stock.\n\nRegarding returns: according to Mumzworld's policy for infant food products, once the seal is broken or the package is opened, the product cannot be returned or exchanged. So if you open the jar and find it unsuitable for your baby, we will not be able to accept a return.\n\nIf you have any other questions or need help choosing an alternative that fits your baby's needs, feel free to contact us. We're here to help!",
+      "tools_used": [
+        "lookup_product"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      8,
+      8
+    ],
+    "elapsed_s": 34.15
+  },
+  {
+    "id": "TC-12",
+    "description": "Warranty claim with order ID",
+    "status": "ok",
+    "input": "The baby monitor I got in my order MW-10021 stopped working after 2 months. Is it under warranty?",
+    "result": {
+      "message_language": "en",
+      "intent": "warranty_claim",
+      "urgency": 3,
+      "urgency_reasoning": "The device stopped working shortly after purchase and the customer needs a resolution.",
+      "extracted_entities": {
+        "order_ids": [
+          "MW-10021"
+        ],
+        "product_names": [],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": "Sara Al Mansouri"
+      },
+      "sentiment": "negative",
+      "suggested_action": "apologize_and_resolve",
+      "confidence": 0.97,
+      "should_escalate": false,
+      "escalation_reason": null,
+      "suggested_reply_original_language": "Hi Sara,\n\nI’m sorry to hear that the baby monitor stopped working after just two months. Most baby monitors we sell come with a 12‑month manufacturer’s warranty, so it should still be covered.\n\nTo confirm the exact warranty details and start a replacement or repair request, could you please let me know the exact model name or product ID of the monitor? Once I have that, I’ll check the warranty status for you and guide you through the next steps.\n\nThank you for your patience, and I look forward to helping you get this resolved quickly.",
+      "suggested_reply_english": "Hi Sara,\n\nI’m sorry to hear that the baby monitor stopped working after just two months. Most baby monitors we sell come with a 12‑month manufacturer’s warranty, so it should still be covered.\n\nTo confirm the exact warranty details and start a replacement or repair request, could you please let me know the exact model name or product ID of the monitor? Once I have that, I’ll check the warranty status for you and guide you through the next steps.\n\nThank you for your patience, and I look forward to helping you get this resolved quickly.",
+      "tools_used": [
+        "lookup_order"
+      ],
+      "grounded_on_data": true
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "tools_called": true,
+      "grounded_correctly": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      8,
+      8
+    ],
+    "elapsed_s": 37.91
+  },
+  {
+    "id": "TC-13",
+    "description": "Edge case: near-empty / ambiguous message",
+    "status": "ok",
+    "input": "help",
+    "result": {
+      "message_language": "en",
+      "intent": "other",
+      "urgency": 3,
+      "urgency_reasoning": "The message is very short and ambiguous, making it unclear how urgent the request is.",
+      "extracted_entities": {
+        "order_ids": [],
+        "product_names": [],
+        "dates_mentioned": [],
+        "amount_mentioned": null,
+        "customer_name": null
+      },
+      "sentiment": "neutral",
+      "suggested_action": "escalate_to_human",
+      "confidence": 0.45,
+      "should_escalate": true,
+      "escalation_reason": "Low confidence due to ambiguous short message",
+      "suggested_reply_original_language": "Hi there! Could you please provide more details about how we can help you?",
+      "suggested_reply_english": "Hi there! Could you please provide more details about how we can help you?",
+      "tools_used": [],
+      "grounded_on_data": false
+    },
+    "metrics": {
+      "intent_correct": true,
+      "language_correct": true,
+      "urgency_in_range": true,
+      "escalation_correct": true,
+      "reply_lang_correct": true,
+      "confidence_in_range": true,
+      "schema_valid": true
+    },
+    "score": [
+      7,
+      7
+    ],
+    "elapsed_s": 12.67
+  }
+]
