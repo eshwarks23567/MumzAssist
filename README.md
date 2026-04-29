@@ -259,14 +259,14 @@ The `_pick_first_valid()` validators coerce pipe-separated placeholder strings (
 
 | Phase | Time |
 |---|---|
-| Problem selection and scoping | ~30 min |
-| Data model + schema design (Pydantic) | ~45 min |
-| Agent loop + multi-model fallback | ~75 min |
-| Synthetic data (orders, products) | ~30 min |
-| Eval cases + runner | ~45 min |
-| Streamlit UI + example categories | ~45 min |
-| Next.js TypeScript frontend | ~45 min |
-| Prompt iteration + Arabic QA | ~30 min |
-| Code review and cleanup (`/simplify`) | ~20 min |
-| README | ~30 min |
-| **Total** | **~6h 15min** |
+| Problem selection and scoping | ~20 min |
+| Data model + schema design (Pydantic) | ~30 min |
+| Agent loop + multi-model fallback | ~55 min |
+| Synthetic data (orders, products) | ~20 min |
+| Eval cases + runner | ~35 min |
+| Streamlit UI + example categories | ~30 min |
+| Next.js TypeScript frontend | ~40 min |
+| Prompt iteration + Arabic QA | ~20 min |
+| Code review and cleanup | ~15 min |
+| README | ~25 min |
+| **Total** | **~4h 50min** |
